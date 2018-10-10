@@ -1,31 +1,37 @@
----
-title: "Thermo Recombinant Kinase Parsing"
-author: "Matthew Berginski"
-output: github_document
----
+Thermo Recombinant Kinase Parsing
+================
+Matthew Berginski
 
-```{r setup, include=FALSE}
-library(DarkKinaseTools)
-library(tidyverse)
-library(here)
-```
-
-# Data Sources
+Data Sources
+============
 
 ThermoFisher has a collection of purified recombinant kinases available for order, this document collects that list and filters down to the dark kinases.
 
-```{r data_loading}
+``` r
 htmltab::htmltab(
   'https://www.thermofisher.com/us/en/home/industrial/pharma-biopharma/drug-discovery-development/target-and-lead-identification-and-validation/kinasebiology/kinase-proteins.html',
   3) -> recomb_kinase_table
+```
+
+    ## Warning: The code for the HTML table you provided is malformed. Not all
+    ## cells are nested in row tags (<tr>). htmltab tried to normalize the table
+    ## and ensure that all cells are within row tags. If you specified an XPath
+    ## for body or header elements, this may have caused problems with their
+    ## identification.
+
+    ## Warning: Columns [Compatible assays] seem to have no data and are removed.
+    ## Use rm_nodata_cols = F to suppress this behavior
+
+``` r
 recomb_kinase_table = recomb_kinase_table %>% 
   rename(recomb_ids = `Kinase name (Alias)`, catalog_id = `10 µg`) %>%
   select(-Class,-`100 µg`,-`1 mg`,-`Available in SelectScreen`)
 ```
 
-# DK Filtering/Output
+DK Filtering/Output
+===================
 
-```{r filtering_matching}
+``` r
 dk_recomb_table = data.frame()
 for (this_row_num in 1:dim(recomb_kinase_table)[1]) {
   this_row = recomb_kinase_table[this_row_num,]
@@ -46,4 +52,4 @@ dk_recomb_table = dk_recomb_table %>% select(symbol,recomb_ids,catalog_URL,catal
 write_csv(dk_recomb_table,here('Recombinant_protein/thermo_recomb_proteins.csv'))
 ```
 
-There are `r length(dk_recomb_table$symbol)` dark kinases in the recombinant protein list.
+There are 37 dark kinases in the recombinant protein list.
