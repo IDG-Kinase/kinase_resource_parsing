@@ -1,0 +1,47 @@
+---
+title: "Thermo Recombinant Kinase Parsing"
+author: "Matthew Berginski"
+output: github_document
+---
+
+```{r setup, include=FALSE}
+library(DarkKinaseTools)
+library(tidyverse)
+library(here)
+```
+
+# Data Sources
+
+ThermoFisher has a collection of purified recombinant kinases available for order, this document collects that list and filters down to the dark kinases.
+
+```{r data_loading}
+htmltab::htmltab(
+  'https://www.thermofisher.com/us/en/home/industrial/pharma-biopharma/drug-discovery-development/target-and-lead-identification-and-validation/kinasebiology/kinase-proteins.html',
+  3) -> recomb_kinase_table
+recomb_kinase_table = recomb_kinase_table %>% 
+  rename(recomb_ids = `Kinase name (Alias)`, catalog_id = `10 µg`) %>%
+  select(-Class,-`100 µg`,-`1 mg`,-`Available in SelectScreen`)
+```
+
+# DK Filtering/Output
+
+```{r filtering_matching}
+dk_recomb_table = data.frame()
+for (this_row_num in 1:dim(recomb_kinase_table)[1]) {
+  this_row = recomb_kinase_table[this_row_num,]
+  for (this_DK in dark_kinases$symbol) {
+    if (grepl(paste0(this_DK,' '),this_row$recomb_ids)) {
+      this_row$symbol = this_DK;
+      this_row$catalog_URL = paste0('https://www.thermofisher.com/order/catalog/product/', this_row$catalog_id)
+      # if (! RCurl::url.exists(this_row$catalog_URL)) {
+      #   print(this_row)
+      # }
+      dk_recomb_table = rbind(dk_recomb_table,this_row)
+    }
+  }
+}
+
+dk_recomb_table = dk_recomb_table %>% select(symbol,recomb_ids,catalog_URL,catalog_id)
+
+write_csv(dk_recomb_table,here('Recombinant_protein/thermo_recomb_proteins.csv'))
+```
