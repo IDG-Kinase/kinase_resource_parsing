@@ -52,9 +52,13 @@ missing_DK = dark_kinases %>%
   filter(! symbol %in% KO_line_data$HGNC_symbol)
 ```
 
+Writing out the full set of DK KO lines available, some of the genes have several lines available.
+
 ```{r output_full}
 write_csv(KO_line_data,here('KO_cell_lines/horizon_DK_KO_full.csv'))
 ```
+
+Writing out one line for each DK.
 
 ```{r output_subset}
 write_csv(KO_line_data %>% group_by(HGNC_symbol) %>% filter(row_number() == 1),
