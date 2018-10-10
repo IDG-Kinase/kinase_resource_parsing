@@ -52,6 +52,11 @@ missing_DK = dark_kinases %>%
   filter(! symbol %in% KO_line_data$HGNC_symbol)
 ```
 
-```{r output}
+```{r output_full}
+write_csv(KO_line_data,here('KO_cell_lines/horizon_DK_KO_full.csv'))
+```
 
+```{r output_subset}
+write_csv(KO_line_data %>% group_by(HGNC_symbol) %>% filter(row_number() == 1),
+          here('KO_cell_lines/horizon_DK_KO.csv'))
 ```
