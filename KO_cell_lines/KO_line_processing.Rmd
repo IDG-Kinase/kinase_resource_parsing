@@ -1,0 +1,57 @@
+---
+title: "KO Cell Lines Processing"
+author: "Matthew Berginski"
+date: "October 9, 2018"
+output: github_document
+---
+
+```{r setup, include=FALSE}
+library(DarkKinaseTools)
+library(tidyverse)
+library(here)
+```
+
+# Data Sources
+
+Horizon has a collection of HAP1 CRISPR knockout lines, we'll download and parse this data to see how many of the DKs are represented.
+
+```{r download}
+if (! file.exists(here('KO_cell_lines/express-catalog.xlsx'))) {
+  download.file('https://www.horizondiscovery.com/media/express-catalog/express-catalog.xlsx',
+                here('KO_cell_lines/express-catalog.xlsx'))
+}
+```
+
+# DK Filtering
+
+```{r reading_data, warning=F}
+KO_line_data = readxl::read_excel(here('KO_cell_lines/express-catalog.xlsx')) %>%
+  rename(HGNC_symbol = `HGNC symbol`) %>%
+  filter(HGNC_symbol %in% dark_kinases$symbol) %>%
+  arrange(HGNC_symbol)
+```
+
+Some of the product pages referenced in this document don't appear to exist, since our goal is to provide links out to these product pages, let's remove those without working URLs
+
+```{r URL_filtering}
+temp = data.frame()
+
+for (row_num in 1:dim(KO_line_data)[1]) {
+  if (RCurl::url.exists(KO_line_data$`Product page`[row_num])) {
+    temp = rbind(temp,KO_line_data[row_num,])
+  }
+}
+
+KO_line_data = temp
+```
+
+They have multiple lines available for several of the dark kinases: `r dim(KO_line_data)[1]` total and `r length(unique(KO_line_data$HGNC_symbol))` unique genes. That's nearly all of our dark kinases, let's see a list of the missing genes:
+
+```{r missing_genes}
+missing_DK = dark_kinases %>%
+  filter(! symbol %in% KO_line_data$HGNC_symbol)
+```
+
+```{r output}
+
+```
