@@ -1,0 +1,36 @@
+---
+title: "KO Mouse Data Parsing"
+author: "Matthew Berginski"
+output: github_document
+---
+
+```{r setup, include=FALSE}
+library(DarkKinaseTools)
+library(tidyverse)
+library(here)
+```
+
+# Data Sources
+
+KOMP and IMPC have already made quite a few KO mouse lines for the a range of the dark kinases. They have provided a summary of the work they have already done, so it's probably a good idea to link to the associated pages. Check out http://www.mousephenotype.org/data/secondaryproject/idg for all the associated links and information.
+
+```{r download}
+if (! file.exists(here('KO_mouse/IMPC_KO_data.tsv'))) {
+  download.file('http://www.mousephenotype.org/data/secondaryproject/export/idg?fileType=tsv&fileName=idgData',
+                here('KO_mouse/IMPC_KO_data.tsv'))
+}
+```
+
+# DK Filtering/Output
+
+```{r filtering_output}
+mouse_KO = read.delim(here('KO_mouse/IMPC_KO_data.tsv')) %>%
+  filter(Family == "Kinase")
+  
+```
+
+Interestingly, they also note that there 11% of the IDG genes have no mouse homolog. Let's get the kinases out of their list.
+
+```{r missing_genes}
+#http://www.mousephenotype.org/data/secondaryproject/idg/mapping
+```
