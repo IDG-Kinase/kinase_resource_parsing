@@ -25,8 +25,12 @@ if (! file.exists(here('KO_mouse/IMPC_KO_data.tsv'))) {
 
 ```{r filtering_output}
 mouse_KO = read.delim(here('KO_mouse/IMPC_KO_data.tsv')) %>%
-  filter(Family == "Kinase")
-  
+  filter(Family == "Kinase", Availability != "") %>%
+  select(Human.gene, Gene.Accession) %>%
+  rename(symbol = Human.gene) %>%
+  mutate(URL = paste0('http://www.mousephenotype.org/data/genes/',Gene.Accession))
+
+write_csv(mouse_KO, here('KO_mouse/IMPC_KO.csv'))
 ```
 
 Interestingly, they also note that there 11% of the IDG genes have no mouse homolog. Let's get the kinases out of their list.
