@@ -1,0 +1,25 @@
+---
+title: "NanoBRET Processing"
+author: "Matthew Berginski"
+output: github_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+library(htmltab)
+library(DarkKinaseTools)
+library(tidyverse)
+library(here)
+```
+
+
+```{r load}
+NanoBRET_assays <- htmltab(doc = "https://www.promega.com/products/cell-signaling/kinase-target-engagement/nanobret-te-intracellular-kinase-assay/?catNum=N2520&accordion0=0", which=1)
+
+names(NanoBRET_assays) <- make.names(names(NanoBRET_assays))
+
+dark_NanoBRET_assays <- NanoBRET_assays %>% filter(Gene.Name %in% dark_kinases$symbol)
+
+write_csv(dark_NanoBRET_assays,here('NanoBRET/dark_NanoBRET_promega.csv'))
+```
+
