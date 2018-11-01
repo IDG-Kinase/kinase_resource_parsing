@@ -1,0 +1,56 @@
+---
+title: "GenomeRNAi Processing"
+author: "Matthew Berginski"
+output: github_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+
+library(tidyverse)
+library(here)
+library(DarkKinaseTools)
+library(BerginskiRMisc)
+library(kableExtra)
+```
+
+# Data Source
+
+There is a database of RNAi screens named GenomeRNAi that I'm looking to scan for the dark kinases (genomernai.org). The primary download links are broken, but I manually copied out their master list of gene hits and saved it out using calc (saved as GenomeRNAi.ods). After getting the data into the spreadsheet I added column headers and saved as csv (GenomeRNAi.csv). I should try to contact them to get a complete list, maybe...
+
+# Read in Data and Scan for Kinases
+
+```{r loading_filtering}
+RNAi = read.csv(here('GenomeRNAi/GenomeRNAi.csv'))
+kinase_RNAi = RNAi %>% 
+  filter(Entrez_Gene_ID %in% all_kinases$entrez_id) %>%
+  left_join(all_kinases, by=c('Entrez_Gene_ID'='entrez_id'))
+
+dark_RNAi = kinase_RNAi %>% filter(class=="Dark")
+light_RNAi = kinase_RNAi %>% filter(class=="Light")
+```
+
+OK then, there's quite a few hits (`r dim(dark_RNAi)[1]`). Let's take a look at the distribution of number of hits.
+
+```{r hit_dist}
+ggplot(dark_RNAi,aes(x=Number_of_hits)) + geom_histogram(bins=20) + theme_berginski()
+```
+
+The top ten dark kinases along with the number of hits are as follows:
+
+```{r top_dark}
+kable(dark_RNAi %>% 
+        arrange(desc(Number_of_hits)) %>% 
+        slice(1:10) %>%
+        select(Gene,Number_of_hits))
+```
+
+# Comparison to Light Kinases
+
+```{r light_comp}
+ggplot(kinase_RNAi,aes(x=class, y=Number_of_hits)) + geom_boxplot() + theme_berginski()
+
+ggplot(kinase_RNAi,aes(x=Number_of_hits, fill=class)) + geom_density(alpha=0.5) + theme_berginski()
+```
+
+That's pretty interesting, the light (`r dim(light_RNAi)[1]` gene represented) kinases have nearly the same distribution as the dark kinases. The mean number of hits is slightly higher (`r mean(dark_RNAi$Number_of_hits)` dark, `r mean(light_RNAi$Number_of_hits)` light), but the distributions are quite similar.
