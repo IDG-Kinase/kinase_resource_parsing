@@ -1,0 +1,105 @@
+---
+title: "Cancer Line RNAseq and MIB PRM"
+author: "Matthew Berginski"
+date: "October 25, 2018"
+output: github_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+library(DarkKinaseTools)
+library(tidyverse)
+library(readxl)
+library(here)
+library(magrittr)
+library(DT)
+library(kableExtra)
+library(xlsx)
+```
+
+
+```{r data_processing, include=F}
+missing_PRM = read_excel(here('MIB-RNAseq-crossref/Dark Kinases Lacking PRM Assays - 102418.xlsx'))
+
+#I built a mapping table for the full uniprot names that are used in the
+#supplementary data used in the paper to the HGNC ids used in the PRM file
+#https://www.uniprot.org/uploadlists/
+
+uniprot_to_HGNC = read_csv(here('MIB-RNAseq-crossref/uniprot_to_HGNC.csv'))
+uniprot_to_HGNC$uniprot_gene = str_match(uniprot_to_HGNC$uniprot_name_full,"(.+)_")[,2]
+
+missing_PRM = missing_PRM %>% 
+  #Add the hgnc_id column to missing PRM (looks like hgnc:###)
+  left_join(all_kinases %>% select(hgnc_id, symbol),by=c(`Gene ID` = 'symbol')) %>%
+  #Now join using the added hgnc_id column
+  left_join(uniprot_to_HGNC) %>%
+  #Get rid of the extra columns used for joining
+  select(`Gene ID`, `UNC Priority Designation`,uniprot_gene)
+
+baseline_MIB = read_excel(here('MIB-RNAseq-crossref/24337-340895-1-SP.xlsx'), skip=2) 
+
+baseline_MIB = baseline_MIB %>% 
+  group_by(Gene) %>%
+  mutate(SUM159 = mean(c(SUM159_1, SUM159_2)),
+         SUM229neg = mean(c(SUM229neg_1, SUM229neg_2)),
+         SUM229pos = mean(c(SUM229pos_1, SUM229pos_2)),
+         HCC1419 = mean(c(HCC1419_1, HCC1419_2)),
+         HCC1428 = mean(c(HCC1428_1, HCC1428_2)),
+         HCC1806 = mean(c(HCC1806_1, HCC1806_2)),
+         HCC1954 = mean(c(HCC1954_1, HCC1954_2)),
+         MCF7 = mean(c(MCF7_1,MCF7_2)),
+         MDA231 = mean(c(MDA231_1, MDA231_2)),
+         MDA361 = mean(c(MDA361_1,MDA361_2)),
+         MDA468 = mean(c(MDA468_1, MDA468_2)),
+         SKBR3 = mean(c(SKBR3_1, SKBR3_2, SKBR3_3)),
+         BT474 = mean(c(BT474_1, BT474_2, BT474_3)),
+         T47D = mean(c(T47D_1,T47D_2)),
+         ZR751 = mean(c(ZR751_1, ZR751_2))) %>%
+  mutate(overall_average = mean(c(SUM159, SUM229neg, SUM229pos, HCC1419, 
+                                  HCC1428, HCC1428, HCC1806, HCC1954, MCF7, MDA231,
+                                  MDA361, MDA468, SKBR3, BT474, T47D, ZR751))) %>%
+  select(-ends_with("_1"),-ends_with("_2"),-ends_with("_3"),
+         -Accession,-Family,-Gene) %>%
+  arrange(desc(overall_average))
+
+
+missing_PRM_MIB = missing_PRM %>% 
+  left_join(baseline_MIB, by=c(uniprot_gene = 'Uniprot')) %>%
+  select(-uniprot_gene,-Gene) %>%
+  mutate_if(is.double, as.integer)
+missing_PRM_MIB[is.na(missing_PRM_MIB)] = 0
+
+write.csv(missing_PRM_MIB,here('MIB-RNAseq-crossref/missing PRM - MIB data.csv'), row.names = F)
+
+
+missing_PRM_MIB_overall_only = missing_PRM_MIB
+```
+
+```{r}
+baseline_RNAseq = read_excel(here('MIB-RNAseq-crossref/24337-340896-1-SP.xlsx'))
+names(baseline_RNAseq) = baseline_RNAseq[1,]
+baseline_RNAseq = baseline_RNAseq[-c(1,2),]
+
+baseline_RNAseq = baseline_RNAseq %>%
+  rename('uniprot_gene' = `CELL LINE`) %>%
+  mutate_at(vars(-uniprot_gene),funs(as.numeric(.)))
+
+baseline_RNAseq_mean = baseline_RNAseq %>%
+  gather(cell_line, RNAseq, -uniprot_gene) %>%
+  group_by(uniprot_gene) %>%
+  summarise(overall_average = mean(RNAseq))
+
+baseline_RNAseq = baseline_RNAseq %>% left_join(baseline_RNAseq_mean)
+
+missing_PRM_RNAseq = missing_PRM %>% left_join(baseline_RNAseq) %>%
+  select(-uniprot_gene)
+missing_PRM_RNAseq[is.na(missing_PRM_RNAseq)] = 0
+
+write.csv(missing_PRM_MIB,here('MIB-RNAseq-crossref/missing PRM - RNAseq Data.csv'), row.names = F)
+```
+
+```{r MIB_table}
+kable(missing_PRM_MIB)
+```
+
+
