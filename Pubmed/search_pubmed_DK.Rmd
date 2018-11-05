@@ -1,0 +1,62 @@
+---
+title: "Pubmed Search"
+author: "Matthew Berginski"
+output: github_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+library(easyPubMed)
+library(DarkKinaseTools)
+library(progress)
+library(here)
+library(tidyverse)
+```
+
+# Pubmed Hit Count
+
+```{r pubmed_hit_count}
+pubmed_hits = c()
+
+date_search_str = '((\"2013/01/01\"[Date - Publication] : \"3000\"[Date - Publication])) AND '
+
+pb <- progress_bar$new(total = length(all_kinases$symbol))
+for (kinase in all_kinases$symbol) {
+  pubmed_ids = get_pubmed_ids(paste0(date_search_str,kinase))
+  
+  pubmed_hits = c(pubmed_hits, pubmed_ids$Count)
+  pb$tick()
+}
+```
+# Publication Data
+
+```{r pubmed_publication_download}
+pubmed_data = data.frame()
+
+date_search_str = '((\"2013/01/01\"[Date - Publication] : \"3000\"[Date - Publication])) AND '
+
+pb <- progress_bar$new(total = length(all_kinases$symbol))
+for (kinase in all_kinases$symbol) {
+  temp_pubmed_data = data.frame();
+  try({temp_pubmed_data = get_pubmed_ids(paste0(date_search_str,kinase)) %>%
+        #this only retrieves the first five entries
+        fetch_pubmed_data(retmax=5) %>% 
+        #only return the first author line
+        table_articles_byAuth(included_authors = 'first') %>%
+        mutate('symbol' = kinase, 'URL' = paste0('https://dx.doi.org/',doi))
+  })
+  
+  if (dim(temp_pubmed_data)[1] == 0) {
+    pb$tick()
+    next;
+  }
+  
+  pubmed_data = rbind(pubmed_data, temp_pubmed_data)
+  
+  pb$tick()
+}
+write_csv(pubmed_data,here('Pubmed','kinase_pub_hits.csv'))
+```
+
+```
+        ```
