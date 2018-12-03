@@ -1,0 +1,54 @@
+---
+title: "ExAC Kinase Data"
+author: "Matthew Berginski"
+output: github_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+library(DarkKinaseTools)
+library(here)
+library(tidyverse)
+library(BerginskiRMisc)
+```
+
+# Download/Load Data
+
+```{r download}
+ExAC_file = here('Exac/forweb_cleaned_exac_r03_march16_z_data_pLI.txt.gz')
+if (! file.exists(ExAC_file)) {
+  download.file("ftp://ftp.broadinstitute.org/pub/ExAC_release/current/manuscript_data/forweb_cleaned_exac_r03_march16_z_data_pLI.txt.gz",
+                ExAC_file)
+}
+
+ExAC_data = read.delim(ExAC_file);
+ExAC_data = ExAC_data %>%
+  mutate(pLI_percentile = cume_dist(pLI))
+```
+
+# Kinase Filtering/Plotting
+
+```{r kinase}
+ExAC_kinases = ExAC_data %>% 
+  filter(gene %in% all_kinases$symbol) %>%
+  left_join(all_kinases, by=c('gene'='symbol'))
+
+ggplot(ExAC_kinases, aes(x=pLI, color=class)) + 
+  geom_density() + theme_berginski()
+
+ggplot(ExAC_kinases, aes(x=pLI_percentile, color=class)) + 
+  geom_density() + theme_berginski()
+```
+
+# Dark Kinase pLi Values
+
+```{r DK_pLi}
+top_ExAC_DK = ExAC_kinases %>% 
+  filter(class == "Dark") %>%
+  arrange(desc(pLI)) %>%
+  select(gene,pLI,pLI_percentile) %>%
+  top_n(20)
+
+kableExtra::kable(top_ExAC_DK)
+```
+
