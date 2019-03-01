@@ -1,0 +1,46 @@
+---
+title: "Single Kinase FASTA"
+author: "Matthew Berginski"
+date: "March 1, 2019"
+output: github_document
+---
+
+```{r setup, include=FALSE}
+library(tidyverse)
+library(DarkKinaseTools)
+library(here)
+
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+```{r}
+human = biomaRt::useMart("ensembl", dataset = "hsapiens_gene_ensembl")
+
+ENST_to_HGNC = biomaRt::getBM(attributes= c("ensembl_transcript_id_version", "hgnc_symbol"),
+                              values=unique(dark_kinases$symbol), mart=human)
+```
+
+```{r}
+dark_ENST_to_HGNC = ENST_to_HGNC %>% filter(hgnc_symbol %in% dark_kinases$symbol)
+
+dark_cdna = biomaRt::getSequence(id=dark_ENST_to_HGNC$ensembl_transcript_id_version,
+                                 type="ensembl_transcript_id_version",
+                                 mart=human,
+                                 seqType=c("coding"))
+```
+
+```{r}
+dark_cdna_coding = dark_cdna %>% filter(coding != "Sequence unavailable") %>%
+  left_join(ENST_to_HGNC)
+
+dir.create(here('single_kinase_fasta','single_DK_fasta'))
+for (this_gene in unique(dark_cdna_coding$hgnc_symbol)) {
+  these_seqs = dark_cdna_coding %>% filter(hgnc_symbol == this_gene)
+  this_file = file(here('single_kinase_fasta','single_DK_fasta',paste0(this_gene,'.fasta')),"wt")
+  for (this_row in 1:dim(these_seqs)[1]) {
+    writeLines(paste0(">",these_seqs$ensembl_transcript_id_version[this_row]), this_file)
+    writeLines(these_seqs$coding[this_row], this_file)
+  }
+  close(this_file)
+}
+```
