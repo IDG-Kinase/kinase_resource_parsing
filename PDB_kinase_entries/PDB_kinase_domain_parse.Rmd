@@ -1,0 +1,28 @@
+---
+title: "PDB Kinase Domain Parsing"
+author: "Matthew Berginski"
+output: github_document
+---
+
+```{r setup, include=FALSE}
+library(tidyverse)
+library(here)
+library(DarkKinaseTools)
+
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+Just a quick script to parse out the PDB entries identified by Changchang Liu (see email from 4/15/2019).
+
+```{r}
+pdb_entries = read_csv(here('PDB_kinase_entries/Table_001_all_kinases_PDB.csv')) %>%
+  filter(gene_symbol %in% dark_kinases$symbol, !is.na(pdb_id))
+
+dir.create(here('PDB_kinase_entries/PDB_kinases'), showWarnings = F)
+for (this_kinase in pdb_entries$gene_symbol) {
+  write_csv(pdb_entries %>% 
+              filter(gene_symbol == this_kinase) %>% 
+              separate_rows(pdb_id,sep=";"), 
+            here('PDB_kinase_entries/PDB_kinases',paste0(this_kinase,'.csv')))
+}
+```
