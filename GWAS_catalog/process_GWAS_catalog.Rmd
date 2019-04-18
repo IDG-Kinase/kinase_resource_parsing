@@ -1,0 +1,93 @@
+---
+title: "Process GWAS Kinases"
+author: "Matthew Berginski"
+date: "April 9, 2019"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+library(tidyverse)
+library(here)
+
+library(DarkKinaseTools)
+```
+
+# Download
+
+This is an R Markdown document. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see <http://rmarkdown.rstudio.com>.
+
+When you click the **Knit** button a document will be generated that includes both content as well as the output of any embedded R code chunks within the document. You can embed an R code chunk like this:
+
+```{r download}
+GWAS_file = here('GWAS_catalog/gwas_catalog_v1.0-associations_e95_r2019-03-22.tsv.gz')
+
+if (! file.exists(GWAS_file)) {
+  download.file(url = "https://www.ebi.ac.uk/gwas/api/search/downloads/full",
+                GWAS_file)
+}
+
+GWAS_data = read_delim(GWAS_file,delim="\t")
+```
+
+```{r dk representation}
+DK_percentage = dim(dark_kinases)[1]/dim(all_kinases)[1]
+
+dk_search_str = paste0(dark_kinases$ensembl_gene_id,collapse="|")
+all_k_search_str = paste0(all_kinases$ensembl_gene_id,collapse="|")
+
+print(sum(grepl(dk_search_str,GWAS_data$SNP_GENE_IDS))/sum(grepl(all_k_search_str,GWAS_data$SNP_GENE_IDS)) - DK_percentage)
+
+print(sum(grepl(dk_search_str,GWAS_data$UPSTREAM_GENE_ID))/sum(grepl(all_k_search_str,GWAS_data$UPSTREAM_GENE_ID)) - DK_percentage)
+
+print(sum(grepl(dk_search_str,GWAS_data$DOWNSTREAM_GENE_ID))/sum(grepl(all_k_search_str,GWAS_data$DOWNSTREAM_GENE_ID)) - DK_percentage)
+```
+
+```{r}
+GWAS_kinase_hits = GWAS_data %>%
+  filter(grepl(dk_search_str,GWAS_data$SNP_GENE_IDS) |
+         grepl(dk_search_str,GWAS_data$UPSTREAM_GENE_ID) |
+         grepl(dk_search_str,GWAS_data$DOWNSTREAM_GENE_ID))
+
+SNP_hits = str_match_all(GWAS_kinase_hits$SNP_GENE_IDS,dk_search_str)
+upstream_hits = str_match_all(GWAS_kinase_hits$UPSTREAM_GENE_ID,dk_search_str)
+downstream_hits = str_match_all(GWAS_kinase_hits$DOWNSTREAM_GENE_ID,dk_search_str)
+
+GWAS_kinase_hits = GWAS_kinase_hits %>%
+  mutate(associated_DK = NA)
+
+GWAS_associated_kinases = tibble(symbol = factor(),Disease_Trait = character(),link = character())
+for (row_num in 1:dim(GWAS_kinase_hits)[1]) {
+  all_hits = unique(na.omit(c(SNP_hits[[row_num]],upstream_hits[[row_num]],downstream_hits[[row_num]])))
+  # print(length(all_hits))
+
+  for (this_hit in all_hits) {
+    associated_DK = dark_kinases$symbol[dark_kinases$ensembl_gene_id == this_hit]
+    GWAS_associated_kinases = GWAS_associated_kinases %>%
+      add_row(symbol = associated_DK, 
+              Disease_Trait = GWAS_kinase_hits$`DISEASE/TRAIT`[row_num],
+              link = GWAS_kinase_hits$LINK[row_num])
+  }
+}
+
+GWAS_associated_kinases = GWAS_associated_kinases %>%
+  distinct()
+
+dir.create(here('GWAS_catalog','GWAS_catalog_traits'), showWarnings = F)
+for (this_kinase in unique(GWAS_associated_kinases$symbol)) {
+  this_data = GWAS_associated_kinases %>% 
+    filter(symbol == this_kinase)
+  
+  write_csv(this_data,here('GWAS_catalog','GWAS_catalog_traits',paste0(this_kinase,'.csv')))
+}
+```
+
+```{r}
+GWAS_kinase_count = GWAS_associated_kinases %>%
+  group_by(symbol) %>%
+  summarise(hit_count = n()) %>%
+  arrange(desc(hit_count))
+
+GWAS_trait_count = GWAS_associated_kinases %>%
+  group_by(Disease_Trait) %>%
+  summarise(hit_count = n())
+```
