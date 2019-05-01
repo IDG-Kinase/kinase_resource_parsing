@@ -10,15 +10,34 @@ library(htmltab)
 library(DarkKinaseTools)
 library(tidyverse)
 library(here)
+library(janitor)
 ```
 
 
 ```{r load}
-NanoBRET_assays <- htmltab(doc = "https://www.promega.com/products/cell-signaling/kinase-target-engagement/nanobret-te-intracellular-kinase-assay/?catNum=N2520&accordion0=0", which=1)
+NanoBRET_page = "https://www.promega.com/products/cell-signaling/kinase-target-engagement/nanobret-te-intracellular-kinase-assay/?catNum=N2520&accordion0=0&accordion1=0"
 
-names(NanoBRET_assays) <- make.names(names(NanoBRET_assays))
+dark_NanoBRET_assays <- htmltab(doc = NanoBRET_page, which=1) %>%
+  clean_names() %>%
+  filter(gene_name %in% dark_kinases$symbol) %>%
+  rename(symbol = gene_name) %>%
+  select(symbol,vector_catalog_number)
 
-dark_NanoBRET_assays <- NanoBRET_assays %>% filter(Gene.Name %in% dark_kinases$symbol)
+#I couldn't figure out how to programmatically grab the list that appears below
+#the main list, so I copied it out manually and saved it.
+other_kinases = read_csv(here('NanoBRET/additional_kinases.csv'), col_names = F)
+for (this_col in names(other_kinases)) {
+  hits_in_column = other_kinases[[this_col]][which(other_kinases[[this_col]] %in% dark_kinases$symbol)]
+  dark_NanoBRET_assays = rbind(dark_NanoBRET_assays, 
+                               tibble(symbol = hits_in_column,
+                                      vector_catalog_number = "Special Request"))
+}
+
+dark_NanoBRET_assays = dark_NanoBRET_assays %>%
+  mutate(vector_url = ifelse(vector_catalog_number == "Special Request",
+                             "https://www.promega.com/products/cell-signaling/kinase-target-engagement/nanobret-te-intracellular-kinase-assay/?catNum=N2520&accordion1=0",
+                             paste0('https://www.promega.com/catalogredirection.aspx?partno=',vector_catalog_number)))
+  
 
 write_csv(dark_NanoBRET_assays,here('NanoBRET/dark_NanoBRET_promega.csv'))
 ```
