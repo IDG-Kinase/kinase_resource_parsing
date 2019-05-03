@@ -31,8 +31,8 @@ for (this_col in names(other_kinases)) {
   hits_in_column = other_kinases[[this_col]][which(other_kinases[[this_col]] %in% dark_kinases$symbol)]
   dark_NanoBRET_assays = dark_NanoBRET_assays %>% 
     add_row(symbol = hits_in_column,
-                                      vector_catalog_number = "Special Request",
-                                      fusion_name = paste0("NanoLuc®-",hits_in_column))
+            vector_catalog_number = "Special Request",
+            fusion_name = paste0("NanoLuc®-fused ",hits_in_column))
 }
 
 dark_NanoBRET_assays = dark_NanoBRET_assays %>%
