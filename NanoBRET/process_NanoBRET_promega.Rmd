@@ -39,7 +39,16 @@ dark_NanoBRET_assays = dark_NanoBRET_assays %>%
   mutate(vector_url = ifelse(vector_catalog_number == "Special Request",
                              "https://www.promega.com/products/cell-signaling/kinase-target-engagement/nanobret-te-intracellular-kinase-assay/?catNum=N2520&accordion1=0",
                              paste0('https://www.promega.com/catalogredirection.aspx?partno=',vector_catalog_number)))
-  
+
+tracer_info = read_csv(here('NanoBRET/NanoBRET_tracer_info.csv')) %>%
+  mutate(tracer_catalog_number = 
+           case_when(
+             tracer_id == "K-5" ~ "N248A",
+             TRUE ~ "NA"
+           )) %>% 
+  mutate(concentration = paste0(concentration, ' \u00B5M'))
+
+dark_NanoBRET_assays = dark_NanoBRET_assays %>% left_join(tracer_info)
 
 write_csv(dark_NanoBRET_assays,here('NanoBRET/dark_NanoBRET_promega.csv'))
 ```
