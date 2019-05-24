@@ -35,9 +35,11 @@ for (this_col in names(other_kinases)) {
             fusion_name = paste0("NanoLuc®-fused ",hits_in_column))
 }
 
+special_order_URL = "https://www.promega.com/products/cell-signaling/kinase-target-engagement/nanobret-te-intracellular-kinase-assay/?catNum=N2520&accordion1=0"
+
 dark_NanoBRET_assays = dark_NanoBRET_assays %>%
   mutate(vector_url = ifelse(vector_catalog_number == "Special Request",
-                             "https://www.promega.com/products/cell-signaling/kinase-target-engagement/nanobret-te-intracellular-kinase-assay/?catNum=N2520&accordion1=0",
+                             special_order_URL,
                              paste0('https://www.promega.com/catalogredirection.aspx?partno=',vector_catalog_number)))
 
 tracer_info = read_csv(here('NanoBRET/NanoBRET_tracer_info.csv')) %>%
@@ -46,9 +48,20 @@ tracer_info = read_csv(here('NanoBRET/NanoBRET_tracer_info.csv')) %>%
              tracer_id == "K-5" ~ "N248A",
              TRUE ~ "NA"
            )) %>% 
+  mutate(tracer_catalog_URL = 
+           case_when(
+             tracer_id == "K-5" ~ "https://www.promega.com/catalogredirection.aspx?partno=N2500",
+             TRUE ~ "NA"
+           )) %>%
   mutate(concentration = paste0(concentration, ' \u00B5M'))
 
-dark_NanoBRET_assays = dark_NanoBRET_assays %>% left_join(tracer_info)
+dark_NanoBRET_assays = dark_NanoBRET_assays %>% 
+  #using a full join here to pick up NanoBRETs where we have a tracer info file,
+  #but it isn't listed on Promega's website
+  full_join(tracer_info) %>%
+  mutate(vector_catalog_number = ifelse(is.na(vector_catalog_number), "Special Request", vector_catalog_number),
+         fusion_name = ifelse(is.na(fusion_name), paste0("NanoLuc®-fused ", symbol) , fusion_name),
+         vector_url = ifelse(is.na(vector_url), special_order_URL, vector_url))
 
 write_csv(dark_NanoBRET_assays,here('NanoBRET/dark_NanoBRET_promega.csv'))
 ```
