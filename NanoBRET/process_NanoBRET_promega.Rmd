@@ -66,3 +66,30 @@ dark_NanoBRET_assays = dark_NanoBRET_assays %>%
 write_csv(dark_NanoBRET_assays,here('NanoBRET/dark_NanoBRET_promega.csv'))
 ```
 
+```{r convert to RSS Template}
+RSS_template = read_csv(here('NanoBRET/RSS_Data_template.csv'))
+
+data_for_RSS = dark_NanoBRET_assays %>% 
+  filter(synapse_link != "") %>%
+  rename(Gene = symbol,
+         Title = fusion_name,
+         Data_link = synapse_link) %>%
+  mutate(Provider_institution = "UNC-CH",
+         Description="NanoBRET Assay Tracer Titration",
+         PI = "Tim Wilson",
+         Data_repository = "synpase",
+         Repository = "synapse") %>%
+  select(one_of(names(RSS_template)))
+
+#Fill in all missing columns with blanks
+for (column_name in names(RSS_template)) {
+  if (! column_name %in% names(data_for_RSS)) {
+    data_for_RSS[[column_name]] = "";
+  }
+}
+
+data_for_RSS = data_for_RSS %>% 
+  select(names(RSS_template)) %>%
+  write_csv(here('NanoBRET/NanoBRET_data_for_RSS.csv'))
+```
+
