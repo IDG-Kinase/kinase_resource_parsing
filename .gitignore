@@ -4,3 +4,5 @@
 .Ruserdata
 
 GWAS_catalog/*.tsv.gz
+
+HPM/*.csv
