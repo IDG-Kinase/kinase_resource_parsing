@@ -77,8 +77,8 @@ data_for_RSS = dark_NanoBRET_assays %>%
   mutate(Provider_institution = "UNC-CH",
          Description="NanoBRET Assay Tracer Titration",
          PI = "Tim Wilson",
-         Data_repository = "synpase",
-         Repository = "synapse") %>%
+         Data_repository = "Synapse",
+         Repository = "Synapse") %>%
   select(one_of(names(RSS_template)))
 
 #Fill in all missing columns with blanks
