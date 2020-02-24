@@ -1,0 +1,54 @@
+---
+title: "Process Compound Info"
+author: "Matthew Berginski"
+date: "2/19/2020"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+library(tidyverse)
+library(here)
+library(janitor)
+```
+
+```{r convert to RSS Template}
+chemical_tools = read_csv(here('chemical_tools/compounds.csv'))
+
+RSS_template = read_csv(here('chemical_tools/ChemicalTool.csv'))
+
+data_for_RSS = chemical_tools %>%
+  rename(Gene = kinase,
+         Title = name,
+         Data_Link = data_link,
+         External_ID = CHEBI,
+         Canonical_SMILES = smiles,
+         Name = chemical_name,
+         Repository_page_link = acquire_link) %>%
+  mutate(Provider_institution = "UNC-CH",
+         Description="Chemical Tool",
+         PI = "Tim Willson",
+         Data_repository = "Synapse",
+         Repository = "Synapse",
+         Data_Repository = "Synapse",
+         External_ID_registration_system = "ChEBI",
+         Link_to_the_supporting_data = Data_Link,
+         Chemical_tool_page = paste0('https://darkkinome.org/compounds/',Title),
+         Status_Milestone_Broad_screening = "Complete",
+         Link_Milestone_Broad_screening = "https://www.discoverx.com/services/drug-discovery-development-services/kinase-profiling/kinomescan",
+         Status_Milestone_Cell_active_tool = "Complete",
+         Link_Milestone_Cell_active_tool = Data_Link,
+         Status_Milestone_Tool_available = "Complete"
+         ) %>%
+  select(one_of(names(RSS_template)))
+
+#Fill in all missing columns with blanks
+for (column_name in names(RSS_template)) {
+  if (! column_name %in% names(data_for_RSS)) {
+    data_for_RSS[[column_name]] = "";
+  }
+}
+
+data_for_RSS = data_for_RSS %>%
+  select(names(RSS_template)) %>%
+  write_csv(here('chemical_tools/chemical_tools_for_RSS.csv'))
+```
