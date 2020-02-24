@@ -73,13 +73,20 @@ data_for_RSS = dark_NanoBRET_assays %>%
   filter(synapse_link != "") %>%
   rename(Gene = symbol,
          Title = fusion_name,
-         Data_link = synapse_link) %>%
+         Data_Link = synapse_link) %>%
   mutate(Provider_institution = "UNC-CH",
          Description="NanoBRET Assay Tracer Titration",
-         PI = "Tim Wilson",
+         PI = "Tim Willson",
          Data_repository = "Synapse",
-         Repository = "Synapse") %>%
-  select(one_of(names(RSS_template)))
+         Repository = "Synapse",
+         Data_Repository = "Synapse",
+         Status_Milestone_NanoBRET_tracer = "Complete",
+         Link_Milestone_NanoBRET_tracer = Data_Link,
+         Link_Milestone_NanoBRET_assay = Data_Link,
+         Status_Milestone_NanoBRET_assay =  "Complete") %>%
+  select(one_of(names(RSS_template))) %>%
+  #turns out PAK7 isn't dark, removing from list
+  filter(Gene != "PAK7")
 
 #Fill in all missing columns with blanks
 for (column_name in names(RSS_template)) {
