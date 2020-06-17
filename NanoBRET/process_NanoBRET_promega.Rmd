@@ -13,57 +13,66 @@ library(here)
 library(janitor)
 ```
 
+```{r load}
+#Update 5/29/2020 Promega has changed this website to no longer work with the R
+#table parsing setup, so I'm going to disable this loading from the promega
+#website and just load from the list I've gathered before. Leaving this here for
+#reference in case I need to figure out how to load this again.
+
+# NanoBRET_page = "https://www.promega.com/products/cell-signaling/kinase-target-engagement/nanobret-te-intracellular-kinase-assay/?catNum=N2520&accordion0=0&accordion1=0"
+# 
+# dark_NanoBRET_assays <- htmltab(doc = NanoBRET_page, which=1) %>%
+#   clean_names() %>%
+#   filter(gene_name %in% dark_kinases$symbol) %>%
+#   rename(symbol = gene_name) %>%
+#   mutate(fusion_name = str_match(vector_name, "(.*?) ")[,2]) %>%
+#   select(symbol,vector_catalog_number,fusion_name)
+# 
+# #I couldn't figure out how to programmatically grab the list that appears below
+# #the main list, so I copied it out manually and saved it.
+# other_kinases = read_csv(here('NanoBRET/additional_kinases.csv'), col_names = F)
+# for (this_col in names(other_kinases)) {
+#   hits_in_column = other_kinases[[this_col]][which(other_kinases[[this_col]] %in% dark_kinases$symbol)]
+#   dark_NanoBRET_assays = dark_NanoBRET_assays %>% 
+#     add_row(symbol = hits_in_column,
+#             vector_catalog_number = "Special Request",
+#             fusion_name = paste0("NanoLuc®-fused ",hits_in_column))
+# }
+# 
+# special_order_URL = "https://www.promega.com/products/cell-signaling/kinase-target-engagement/nanobret-te-intracellular-kinase-assay/?catNum=N2520&accordion1=0"
+# 
+# dark_NanoBRET_assays = dark_NanoBRET_assays %>%
+#   mutate(vector_url = ifelse(vector_catalog_number == "Special Request",
+#                              special_order_URL,
+#                              paste0('https://www.promega.com/catalogredirection.aspx?partno=',vector_catalog_number)))
+# 
+# tracer_info = read_csv(here('NanoBRET/NanoBRET_tracer_info.csv')) %>%
+#   mutate(tracer_catalog_number = 
+#            case_when(
+#              tracer_id == "K-5" ~ "N248A",
+#              TRUE ~ "NA"
+#            )) %>% 
+#   mutate(tracer_catalog_URL = 
+#            case_when(
+#              tracer_id == "K-5" ~ "https://www.promega.com/catalogredirection.aspx?partno=N2500",
+#              TRUE ~ "NA"
+#            )) %>%
+#   mutate(concentration = paste0(concentration, ' \u00B5M'))
+# 
+# dark_NanoBRET_assays = dark_NanoBRET_assays %>% 
+#   #using a full join here to pick up NanoBRETs where we have a tracer info file,
+#   #but it isn't listed on Promega's website
+#   full_join(tracer_info) %>%
+#   mutate(vector_catalog_number = ifelse(is.na(vector_catalog_number), "Special Request", vector_catalog_number),
+#          fusion_name = ifelse(is.na(fusion_name), paste0("NanoLuc®-fused ", symbol) , fusion_name),
+#          vector_url = ifelse(is.na(vector_url), special_order_URL, vector_url))
+# 
+# write_csv(dark_NanoBRET_assays,here('NanoBRET/dark_NanoBRET_promega.csv'))
+```
+
 
 ```{r load}
-NanoBRET_page = "https://www.promega.com/products/cell-signaling/kinase-target-engagement/nanobret-te-intracellular-kinase-assay/?catNum=N2520&accordion0=0&accordion1=0"
-
-dark_NanoBRET_assays <- htmltab(doc = NanoBRET_page, which=1) %>%
-  clean_names() %>%
-  filter(gene_name %in% dark_kinases$symbol) %>%
-  rename(symbol = gene_name) %>%
-  mutate(fusion_name = str_match(vector_name, "(.*?) ")[,2]) %>%
-  select(symbol,vector_catalog_number,fusion_name)
-
-#I couldn't figure out how to programmatically grab the list that appears below
-#the main list, so I copied it out manually and saved it.
-other_kinases = read_csv(here('NanoBRET/additional_kinases.csv'), col_names = F)
-for (this_col in names(other_kinases)) {
-  hits_in_column = other_kinases[[this_col]][which(other_kinases[[this_col]] %in% dark_kinases$symbol)]
-  dark_NanoBRET_assays = dark_NanoBRET_assays %>% 
-    add_row(symbol = hits_in_column,
-            vector_catalog_number = "Special Request",
-            fusion_name = paste0("NanoLuc®-fused ",hits_in_column))
-}
-
-special_order_URL = "https://www.promega.com/products/cell-signaling/kinase-target-engagement/nanobret-te-intracellular-kinase-assay/?catNum=N2520&accordion1=0"
-
-dark_NanoBRET_assays = dark_NanoBRET_assays %>%
-  mutate(vector_url = ifelse(vector_catalog_number == "Special Request",
-                             special_order_URL,
-                             paste0('https://www.promega.com/catalogredirection.aspx?partno=',vector_catalog_number)))
-
-tracer_info = read_csv(here('NanoBRET/NanoBRET_tracer_info.csv')) %>%
-  mutate(tracer_catalog_number = 
-           case_when(
-             tracer_id == "K-5" ~ "N248A",
-             TRUE ~ "NA"
-           )) %>% 
-  mutate(tracer_catalog_URL = 
-           case_when(
-             tracer_id == "K-5" ~ "https://www.promega.com/catalogredirection.aspx?partno=N2500",
-             TRUE ~ "NA"
-           )) %>%
-  mutate(concentration = paste0(concentration, ' \u00B5M'))
-
-dark_NanoBRET_assays = dark_NanoBRET_assays %>% 
-  #using a full join here to pick up NanoBRETs where we have a tracer info file,
-  #but it isn't listed on Promega's website
-  full_join(tracer_info) %>%
-  mutate(vector_catalog_number = ifelse(is.na(vector_catalog_number), "Special Request", vector_catalog_number),
-         fusion_name = ifelse(is.na(fusion_name), paste0("NanoLuc®-fused ", symbol) , fusion_name),
-         vector_url = ifelse(is.na(vector_url), special_order_URL, vector_url))
-
-write_csv(dark_NanoBRET_assays,here('NanoBRET/dark_NanoBRET_promega.csv'))
+dark_NanoBRET_assays = read_csv(here('NanoBRET/dark_NanoBRET_promega.csv'))
 ```
 
 ```{r convert to RSS Template}
@@ -72,14 +81,20 @@ RSS_template = read_csv(here('NanoBRET/RSS_Data_template.csv'))
 data_for_RSS = dark_NanoBRET_assays %>% 
   filter(synapse_link != "") %>%
   rename(Gene = symbol,
-         Title = fusion_name,
+         Title = fusion_name,XX
          Data_Link = synapse_link) %>%
   mutate(Provider_institution = "UNC-CH",
          Description="NanoBRET Assay Tracer Titration",
          PI = "Tim Willson",
+         Authors = "Julie Pickett",
+         Assay_ID = "BAO_0010069",
          Data_repository = "Synapse",
+         Data_Format = "PDF",
+         Dataset_ID = str_extract(Data_Link, "syn[:digit:].*$"),
          Repository = "Synapse",
          Data_Repository = "Synapse",
+         Endpoint_detection = "Fluorescence Intensity",
+         Endpoint = "Fold Change",
          Status_Milestone_NanoBRET_tracer = "Complete",
          Link_Milestone_NanoBRET_tracer = Data_Link,
          Link_Milestone_NanoBRET_assay = Data_Link,
