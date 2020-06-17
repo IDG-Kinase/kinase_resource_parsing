@@ -14,9 +14,12 @@ library(janitor)
 ```{r convert to RSS Template}
 chemical_tools = read_csv(here('chemical_tools/compounds.csv'))
 
+selectivities = read_csv(here('chemical_tools/compound_extra_properties.csv'))
+
 RSS_template = read_csv(here('chemical_tools/ChemicalTool.csv'))
 
 data_for_RSS = chemical_tools %>%
+  left_join(selectivities) %>%
   rename(Gene = kinase,
          Title = name,
          Data_Link = data_link,
@@ -27,6 +30,12 @@ data_for_RSS = chemical_tools %>%
   mutate(Provider_institution = "UNC-CH",
          Description="Chemical Tool",
          PI = "Tim Willson",
+         Authors = "Alison Axtman",
+         Assay_ID = "BAO_0010069",
+         Endpoint_detection = "Fluorescence Intensity",
+         Endpoint = "Fold Change",
+         Ligand_type = "inhibitor",
+         Data_Format = "PDF",
          Data_repository = "Synapse",
          Repository = "Synapse",
          Data_Repository = "Synapse",
