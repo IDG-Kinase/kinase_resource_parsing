@@ -1,0 +1,350 @@
+"Kinase or Kinase
+Complex Name",Gene Name,Official Full Name,Also Known As,NCBI Gene ID,Vector Catalog #,Vector Name,"Recommended ADH
+Format App Note","Recommended NBS
+Format App Note"
+AAK1,AAK1,AP2 associated kinase 1,-,22848,NV1001,NanoLuc®-AAK1 Fusion Vector,"NanoBRET™ TE Intracellular Kinase Assay, K-10","NanoBRET™ TE Intracellular Kinase Assay, K-5"
+ABL1,ABL1,"ABL proto-oncogene 1, non-receptor tyrosine kinase","ABL, JTK7, p150, c-ABL, v-abl, c-ABL1, bcr/ abl",25,NV1011,NanoLuc®-ABL1 Fusion Vector,"NanoBRET™ TE Intracellular Kinase Assay, K-4","NanoBRET™ TE Intracellular Kinase Assay, K-4"
+ABL1 (E255K),ABL1,"c-abl oncogene 1, receptor tyrosine kinase","ABL, JTK7, p150, c-ABL, v-abl, bcr/ abl, ABL1",25,NV2251,NanoLuc®-ABL1(E255K) Fusion Vector,"NanoBRET™ TE Intracellular Kinase Assay, K-4",
+ABL1 (F317I),ABL1,"c-abl oncogene 1, receptor tyrosine kinase","ABL, JTK7, p150, c-ABL, v-abl, bcr/ abl, ABL1",25,NV2261,NanoLuc®-ABL1(F317I) Fusion Vector,"NanoBRET™ TE Intracellular Kinase Assay, K-4",
+ABL1 (F317L),ABL1,"c-abl oncogene 1, receptor tyrosine kinase","ABL, JTK7, p150, c-ABL, v-abl, bcr/ abl, ABL1",25,NV2271,NanoLuc®-ABL1(F317L) Fusion Vector,"NanoBRET™ TE Intracellular Kinase Assay, K-4",
+ABL1 (H396P),ABL1,"c-abl oncogene 1, receptor tyrosine kinase","ABL, JTK7, p150, c-ABL, v-abl, bcr/ abl, ABL1",25,NV2281,NanoLuc®-ABL1(H396P) Fusion Vector,"NanoBRET™ TE Intracellular Kinase Assay, K-4",
+ABL1 (M351T),ABL1,"c-abl oncogene 1, receptor tyrosine kinase","ABL, JTK7, p150, c-ABL, v-abl, bcr/ abl, ABL1",25,NV2291,NanoLuc®-ABL1(M351T) Fusion Vector,"NanoBRET™ TE Intracellular Kinase Assay, K-4",
+ABL1 (Q252H),ABL1,"c-abl oncogene 1, receptor tyrosine kinase","ABL, JTK7, p150, c-ABL, v-abl, bcr/ abl, ABL1",25,NV2301,NanoLuc®-ABL1(Q252H) Fusion Vector,"NanoBRET™ TE Intracellular Kinase Assay, K-4",
+ABL1 (T315I),ABL1,"c-abl oncogene 1, receptor tyrosine kinase","ABL, JTK7, p150, c-ABL, v-abl, bcr/ abl, ABL1",25,NV2321,NanoLuc®-ABL1(T315I) Fusion Vector,,"NanoBRET™ TE Intracellular Kinase Assay, K-5"
+ABL1 (Y253F),ABL1,"c-abl oncogene 1, receptor tyrosine kinase","ABL, JTK7, p150, c-ABL, v-abl, bcr/ abl, ABL1",25,NV2311,NanoLuc®-ABL1(Y253F) Fusion Vector,"NanoBRET™ TE Intracellular Kinase Assay, K-4",
+ABL2,ABL2,"ABL proto-oncogene 2, non-receptor tyrosine kinase","ABLL, ARG",27,NV2331,NanoLuc®-ABL2 Fusion Vector,"NanoBRET™ TE Intracellular Kinase Assay, K-4",
+ACVR1,ACVR1,activin A receptor type 1,"ACTRI, ACVR1A, ACVRLK2, ALK2, FOP, SKR1, TSRI",90,NV2341,ACVR1-NanoLuc® Fusion Vector,"NanoBRET™ TE Intracellular Kinase Assay, K-11",
+ACVR1 (G328V),ACVR1,activin A receptor type 1,"ACTRI, ACVR1A, ACVRLK2, ALK2, FOP, SKR1, TSRI",90,NV2351,ACVR1(G328V)-NanoLuc® Fusion Vector,"NanoBRET™ TE Intracellular Kinase Assay, K-11",
+ACVR1 (G356D),ACVR1,activin A receptor type 1,"ACTRI, ACVR1A, ACVRLK2, ALK2, FOP, SKR1, TSRI",90,NV2361,ACVR1(G356D)-NanoLuc® Fusion Vector,"NanoBRET™ TE Intracellular Kinase Assay, K-11",
+ACVR1 (Q207D),ACVR1,activin A receptor type 1,"ACTRI, ACVR1A, ACVRLK2, ALK2, FOP, SKR1, TSRI",90,NV2371,ACVR1(Q207D)-NanoLuc® Fusion Vector,"NanoBRET™ TE Intracellular Kinase Assay, K-11",
+ACVR1 (R206H),ACVR1,activin A receptor type 1,"ACTRI, ACVR1A, ACVRLK2, ALK2, FOP, SKR1, TSRI",90,NV2381,ACVR1(R206H)-NanoLuc® Fusion Vector,"NanoBRET™ TE Intracellular Kinase Assay, K-11",
+ACVRL1,ACVRL1,activin A receptor like type 1,"ACVRLK1, ALK-1, ALK1, HHT, HHT2, ORW2, SKR3, TSR-I",94,NV2391,ACVRL1-NanoLuc® Fusion Vector,"NanoBRET™ TE Intracellular Kinase Assay, K-11",
+ADK,ADK,adenosine kinase,AK,132,NV2401,ADK-NanoLuc® Fusion Vector,"NanoBRET™ TE Intracellular Kinase Assay, K-8",
+AKT1,AKT1,v-akt murine thymoma viral oncogene homolog 1,"AKT, PKB, RAC, PRKBA, MGC99656, PKB-ALPHA, RAC-ALPHA, AKT1",207,NV2411,AKT1-NanoLuc® Fusion Vector,"NanoBRET™ TE Intracellular Kinase Assay, K-10",
+AKT1 (E17K),AKT1,v-akt murine thymoma viral oncogene homolog 1,"AKT, PKB, RAC, PRKBA, MGC99656, PKB-ALPHA, RAC-ALPHA, AKT1",207,NV2421,AKT1(E17K)-NanoLuc® Fusion Vector,"NanoBRET™ TE Intracellular Kinase Assay, K-10",
+AKT2,AKT2,AKT serine/ threonine kinase 2,"PKBB, PRKBB, HIHGHH, PKBBETA, RAC-BETA",208,NV1031,AKT2-NanoLuc® Fusion Vector,"NanoBRET™ TE Intracellular Kinase Assay, K-10","NanoBRET™ TE Intracellular Kinase Assay, K-5"
+AKT2 (E17K),AKT2,AKT serine/ threonine kinase 2,"PKBB, PRKBB, PKBBETA, RAC-BETA, AKT2",208,NV2431,AKT2(E17K)-NanoLuc® Fusion Vector,"NanoBRET™ TE Intracellular Kinase Assay, K-10",
+AKT3 (E17K),AKT3,v-akt murine thymoma viral oncogene homolog 3,"PKBG, PRKBG, STK-2, PKB-GAMMA, RAC-gamma, RAC-PK-gamma, DKFZp434N0250",10000,NV2441,AKT3(E17K)-NanoLuc® Fusion Vector,"NanoBRET™ TE Intracellular Kinase Assay, K-10",
+AKT3 (G171R),AKT3,v-akt murine thymoma viral oncogene homolog 3,"PKBG, PRKBG, STK-2, PKB-GAMMA, RAC-gamma, RAC-PK-gamma, DKFZp434N0250",10000,NV2451,AKT3(G171R)-NanoLuc® Fusion Vector,"NanoBRET™ TE Intracellular Kinase Assay, K-10",
+ALK4,ACVR1B,activin A receptor type 1B,"ALK4, SKR2, ACTRIB, ACVRLK4",91,NV1021,ACVR1B-NanoLuc® Fusion Vector,,"NanoBRET™ TE Intracellular Kinase Assay, K-5"
+Aurora A,AURKA,aurora kinase A,"AIK, ARK1, AURA, BTAK, STK6, STK7, STK15, PPP1R47",6790,NV1041,AURKA-NanoLuc® Fusion Vector,"NanoBRET™ TE Intracellular Kinase Assay, K-10","NanoBRET™ TE Intracellular Kinase Assay, K-5"
+Aurora B,AURKB,aurora kinase B,"AIK2, AIM1, ARK2, AurB, IPL1, STK5, AIM-1, STK12, PPP1R48, aurkb-sv1, aurkb-sv2",9212,NV1051,AURKB-NanoLuc® Fusion Vector,"NanoBRET™ TE Intracellular Kinase Assay, K-10","NanoBRET™ TE Intracellular Kinase Assay, K-5"
+Aurora C,AURKC,aurora kinase C,"AIE2, AIK3, ARK3, AurC, SPGF5, STK13, HEL-S-90, aurora-C",6795,NV1061,AURKC-NanoLuc® Fusion Vector,"NanoBRET™ TE Intracellular Kinase Assay, K-10","NanoBRET™ TE Intracellular Kinase Assay, K-5"
+AXL,AXL,AXL receptor tyrosine kinase,"ARK, UFO, JTK11, Tyro7",558,NV1071,AXL-NanoLuc® Fusion Vector,"NanoBRET™ TE Intracellular Kinase Assay, K-10","NanoBRET™ TE Intracellular Kinase Assay, K-5"
+BLK,BLK,"BLK proto-oncogene, Src family tyrosine kinase",MODY11,640,NV2461,NanoLuc®-BLK Fusion Vector,"NanoBRET™ TE Intracellular Kinase Assay, K-4","NanoBRET™ TE Intracellular Kinase Assay, K-4"
+BMP2K,BMP2K,BMP2 inducible kinase,"BIKE, HRIHFB2017",55589,NV1091,NanoLuc®-BMP2K Fusion Vector,"NanoBRET™ TE Intracellular Kinase Assay, K-10","NanoBRET™ TE Intracellular Kinase Assay, K-5"
+BMPR1A,BMPR1A,bone morphogenetic protein receptor type 1A,"10q23del, ACVRLK3, ALK3, CD292, SKR5",657,NV2471,BMPR1A-NanoLuc® Fusion Vector,"NanoBRET™ TE Intracellular Kinase Assay, K-11",
+BMX,BMX,BMX non-receptor tyrosine kinase,"ETK, PSCTK2, PSCTK3",660,NV1101,BMX-NanoLuc® Fusion Vector,"NanoBRET™ TE Intracellular Kinase Assay, K-4","NanoBRET™ TE Intracellular Kinase Assay, K-4"
+BRAF (V600E),BRAF,"B-Raf proto-oncogene, serine/ threonine kinase","B-RAF1, B-raf, BRAF1, NS7, RAFB1",673,NV2481,BRAF(V600E)-NanoLuc® Fusion Vector,"NanoBRET™ TE Intracellular Kinase Assay, K-10",
+BRK,PTK6,protein tyrosine kinase 6,BRK,5753,NV1941,PTK6-NanoLuc® Fusion Vector,"NanoBRET™ TE Intracellular Kinase Assay, K-4","NanoBRET™ TE Intracellular Kinase Assay, K-4"
+BRSK1,BRSK1,BR serine/ threonine kinase 1,hSAD1,381979,NV2491,NanoLuc®-BRSK1 Fusion Vector,"NanoBRET™ TE Intracellular Kinase Assay, K-10",
+BRSK2,BRSK2,BR serine/ threonine kinase 2,"C11orf7, PEN11B, SAD1, SADA, STK29",9024,NV1111,NanoLuc®-BRSK2 Fusion Vector,"NanoBRET™ TE Intracellular Kinase Assay, K-10","NanoBRET™ TE Intracellular Kinase Assay, K-5"
+BTK,BTK,bruton tyrosine kinase,-,695,N2441,BTK-NanoLuc® Fusion Vector,"NanoBRET™ TE Intracellular Kinase Assay, K-10","NanoBRET™ TE Intracellular Kinase Assay, K-5"
+BTK (C481S),BTK,Bruton agammaglobulinemia tyrosine kinase,"AT, ATK, BPK, XLA, IMD1, AGMX1, PSCTK1, MGC126261, MGC126262, BTK",695,NV2501,BTK(C481S)-NanoLuc® Fusion Vector,"NanoBRET™ TE Intracellular Kinase Assay, K-10",
+BTK (E41K),BTK,Bruton agammaglobulinemia tyrosine kinase,"AT, ATK, BPK, XLA, IMD1, AGMX1, PSCTK1, MGC126261, MGC126262, BTK",695,NV2511,BTK(E41K)-NanoLuc® Fusion Vector,"NanoBRET™ TE Intracellular Kinase Assay, K-10",
+BTK (P190K),BTK,Bruton agammaglobulinemia tyrosine kinase,"AT, ATK, BPK, XLA, IMD1, AGMX1, PSCTK1, MGC126261, MGC126262, BTK",695,NV2521,BTK(P190K)-NanoLuc® Fusion Vector,"NanoBRET™ TE Intracellular Kinase Assay, K-10",
+CAMK1,CAMK1,calcium/ calmodulin dependent protein kinase I,CAMKI,8536,NV2531,NanoLuc®-CAMK1 Fusion Vector,"NanoBRET™ TE Intracellular Kinase Assay, K-9",
+CAMK1D,CAMK1D,calcium/ calmodulin dependent protein kinase ID,"CKLiK, CaM-K1, CaMKID",57118,NV2541,NanoLuc®-CAMK1D Fusion Vector,"NanoBRET™ TE Intracellular Kinase Assay, K-9",
+CAMK1G,CAMK1G,calcium/ calmodulin dependent protein kinase IG,"CLICK3, CLICKIII, VWS1, dJ272L16.1",57172,NV2551,NanoLuc®-CAMK1G Fusion Vector,"NanoBRET™ TE Intracellular Kinase Assay, K-9",
+CAMK2A,CAMK2A,calcium/ calmodulin dependent protein kinase II alpha,"CAMKA, CaMKIINalpha, CaMKIIalpha, MRD53, MRT63",815,NV2561,NanoLuc®-CAMK2A Fusion Vector,"NanoBRET™ TE Intracellular Kinase Assay, K-10",
+CAMK2D,CAMK2D,calcium/ calmodulin dependent protein kinase II delta,CAMKD,817,NV2571,NanoLuc®-CAMK2D Fusion Vector,"NanoBRET™ TE Intracellular Kinase Assay, K-10",
+CAMK2G,CAMK2G,calcium/ calmodulin dependent protein kinase II gamma,"CAMK, CAMK-II, CAMKG, MRD59",818,NV2581,CAMK2G-NanoLuc® Fusion Vector,"NanoBRET™ TE Intracellular Kinase Assay, K-10",
+CDK1/ Cyclin B1,CDK1,cyclin dependent kinase 1,"CDC2, CDC28A, P34CDC2",983,NV2701,CDK1-NanoLuc® Fusion Vector,"NanoBRET™ TE Intracellular Kinase Assay, K-9",
+CDK1/ Cyclin E1,CDK1,cyclin dependent kinase 1,"CDC2, CDC28A, P34CDC2",983,NV2701,CDK1-NanoLuc® Fusion Vector,"NanoBRET™ TE Intracellular Kinase Assay, K-9",
+CDK10/ Cyclin L2,CDK10,cyclin dependent kinase 10,"ALSAS, PISSLRE",8558,NV2711,CDK10-NanoLuc® Fusion Vector,"NanoBRET™ TE Intracellular Kinase Assay, K-10",
+CDK14/ Cyclin Y,CDK14,cyclin dependent kinase 14,"PFTAIRE1, PFTK1",5218,NV2721,CDK14-NanoLuc® Fusion Vector,"NanoBRET™ TE Intracellular Kinase Assay, K-10",
+CDK15/ Cyclin Y,CDK15,cyclin dependent kinase 15,"ALS2CR7, PFTAIRE2, PFTK2",65061,NV2731,NanoLuc®-CDK15 Fusion Vector,"NanoBRET™ TE Intracellular Kinase Assay, K-10",
+CDK16/ Cyclin Y,CDK16,cyclin dependent kinase 16,"PCTAIRE, PCTAIRE1, PCTGAIRE, PCTK1",5127,NV2741,CDK16-NanoLuc® Fusion Vector,"NanoBRET™ TE Intracellular Kinase Assay, K-10",
+CDK17/ Cyclin Y,CDK17,cyclin dependent kinase 17,"PCTAIRE2, PCTK2",5128,NV2751,CDK17-NanoLuc® Fusion Vector,"NanoBRET™ TE Intracellular Kinase Assay, K-10",
+CDK18/ Cyclin Y,CDK18,cyclin dependent kinase 18,"PCTAIRE, PCTAIRE3, PCTK3",5129,NV2761,CDK18-NanoLuc® Fusion Vector,"NanoBRET™ TE Intracellular Kinase Assay, K-10",
+CDK19/ Cyclin C,CDK19,cyclin dependent kinase 19,"CDC2L6, CDK11, bA346C16.3",23097,NV2771,NanoLuc®-CDK19 Fusion Vector,"NanoBRET™ TE Intracellular Kinase Assay, K-8",
+CDK2/ Cyclin A1,CDK2,cyclin dependent kinase 2,"CDKN2, p33 (CDK2)",1017,NV2781,CDK2-NanoLuc® Fusion Vector,"NanoBRET™ TE Intracellular Kinase Assay, K-10",
+CDK2/ Cyclin E1,CDK2,cyclin dependent kinase 2,"CDKN2, p33 (CDK2)",1017,NV2781,CDK2-NanoLuc® Fusion Vector,"NanoBRET™ TE Intracellular Kinase Assay, K-10",
+CDK20/ Cyclin H,CDK20,cyclin dependent kinase 20,"CCRK, CDCH, P42, PNQALRE",23552,NV2791,NanoLuc®-CDK20 Fusion Vector,"NanoBRET™ TE Intracellular Kinase Assay, K-10",
+CDK3/ Cyclin E1,CDK3,cyclin dependent kinase 3,-,1018,NV2801,CDK3-NanoLuc® Fusion Vector,"NanoBRET™ TE Intracellular Kinase Assay, K-10",
+CDK4/ Cyclin D1,CDK4,cyclin dependent kinase 4,"CMM3, PSK-J3",1019,NV2811,NanoLuc®-CDK4 Fusion Vector,"NanoBRET™ TE Intracellular Kinase Assay, K-10",
+CDK4/ Cyclin D3,CDK4,cyclin dependent kinase 4,"CMM3, PSK-J3",1019,NV2811,NanoLuc®-CDK4 Fusion Vector,"NanoBRET™ TE Intracellular Kinase Assay, K-10",
+CDK5/ CDK5R1,CDK5,cyclin dependent kinase 5,"LIS7, PSSALRE",1020,NV1121,CDK5-NanoLuc® Fusion Vector,"NanoBRET™ TE Intracellular Kinase Assay, K-10",
+CDK5/ CDK5R2,CDK5,cyclin dependent kinase 5,"LIS7, PSSALRE",1020,NV1121,CDK5-NanoLuc® Fusion Vector,"NanoBRET™ TE Intracellular Kinase Assay, K-10",
+CDK6/ Cyclin D1,CDK6,cyclin dependent kinase 6,"MCPH12, PLSTIRE",1021,NV2841,NanoLuc®-CDK6 Fusion Vector,"NanoBRET™ TE Intracellular Kinase Assay, K-10",
+CDK7,CDK7,cyclin dependent kinase 7,"CAK, CAK1, CDKN7, HCAK, MO15, STK1, p39MO15",1022,NV2851,NanoLuc®-CDK7 Fusion Vector,"NanoBRET™ TE Intracellular Kinase Assay, K-10",
+CDK8/ Cyclin C,CDK8,cyclin dependent kinase 8,K35,1024,NV2861,NanoLuc®-CDK8 Fusion Vector,"NanoBRET™ TE Intracellular Kinase Assay, K-8",
+CDK9/ Cyclin K,CDK9,cyclin dependent kinase 9,"C-2k, CDC2L4, CTK1, PITALRE, TAK",1025,NV2871,NanoLuc®-CDK9 Fusion Vector,"NanoBRET™ TE Intracellular Kinase Assay, K-8",
+CDK9/ Cyclin T1,CDK9,cyclin dependent kinase 9,"C-2k, CDC2L4, CTK1, PITALRE, TAK",1025,NV2871,NanoLuc®-CDK9 Fusion Vector,"NanoBRET™ TE Intracellular Kinase Assay, K-8",
+CDKL1,CDKL1,cyclin dependent kinase like 1,"KKIALRE, P42",8814,NV2881,NanoLuc®-CDKL1 Fusion Vector,"NanoBRET™ TE Intracellular Kinase Assay, K-11",
+CDKL2,CDKL2,cyclin dependent kinase like 2,"KKIAMRE, P56",8999,NV2891,NanoLuc®-CDKL2 Fusion Vector,"NanoBRET™ TE Intracellular Kinase Assay, K-11",
+CDKL3,CDKL3,cyclin dependent kinase like 3,NKIAMRE,51265,NV2901,NanoLuc®-CDKL3 Fusion Vector,"NanoBRET™ TE Intracellular Kinase Assay, K-11",
+CDKL5,CDKL5,cyclin dependent kinase like 5,"CFAP247, EIEE2, ISSX, STK9",6792,NV2911,NanoLuc®-CDKL5 Fusion Vector,"NanoBRET™ TE Intracellular Kinase Assay, K-11",
+CHEK1,CHEK1,checkpoint kinase 1,CHK1,1111,NV2921,NanoLuc®-CHEK1 Fusion Vector,"NanoBRET™ TE Intracellular Kinase Assay, K-9",
+CHEK2,CHEK2,checkpoint kinase 2,"CDS1, CHK2, HuCds1, LFS2, PP1425, RAD53, hCds1",11200,NV2931,CHEK2-NanoLuc® Fusion Vector,"NanoBRET™ TE Intracellular Kinase Assay, K-10",
+CLK1,CLK1,CDC like kinase 1,"CLK, STY, CLK/ STY",1195,NV1131,NanoLuc®-CLK1 Fusion Vector,"NanoBRET™ TE Intracellular Kinase Assay, K-10","NanoBRET™ TE Intracellular Kinase Assay, K-5"
+CLK2,CLK2,CDC like kinase 2,,1196,NV1141,CLK2-NanoLuc® Fusion Vector,"NanoBRET™ TE Intracellular Kinase Assay, K-9","NanoBRET™ TE Intracellular Kinase Assay, K-5"
+CLK4,CLK4,CDC like kinase 4,,57396,NV1151,CLK4-NanoLuc® Fusion Vector,"NanoBRET™ TE Intracellular Kinase Assay, K-9","NanoBRET™ TE Intracellular Kinase Assay, K-5"
+COQ8B,COQ8B,coenzyme Q8B,"ADCK4, NPHS9",79934,NV2941,NanoLuc®-COQ8B Fusion Vector,"NanoBRET™ TE Intracellular Kinase Assay, K-10",
+CSF1R,CSF1R,colony stimulating factor 1 receptor,"FMS, CSFR, FIM2, HDLS, C-FMS, CD115, CSF-1R, M-CSF-R",1436,NV1161,CSF1R-NanoLuc® Fusion Vector,"NanoBRET™ TE Intracellular Kinase Assay, K-4","NanoBRET™ TE Intracellular Kinase Assay, K-4"
+CSK,CSK,C-terminal Src kinase,,1445,NV1171,CSK-NanoLuc® Fusion Vector,"NanoBRET™ TE Intracellular Kinase Assay, K-4","NanoBRET™ TE Intracellular Kinase Assay, K-4"
+CSNK1A1L,CSNK1A1L,casein kinase 1 alpha 1 like,CK1,122011,NV2951,NanoLuc®-CSNK1A1L Fusion Vector,"NanoBRET™ TE Intracellular Kinase Assay, K-10",
+CSNK1D,CSNK1D,casein kinase 1 delta,"ASPS, CKI-delta, CKId, CKIdelta, FASPS2, HCKID",1453,NV2961,NanoLuc®-CSNK1D Fusion Vector,"NanoBRET™ TE Intracellular Kinase Assay, K-8",
+CSNK1E,CSNK1E,casein kinase 1 epsilon,"CKIe, CKIepsilon, HCKIE",1454,NV2971,NanoLuc®-CSNK1E Fusion Vector,"NanoBRET™ TE Intracellular Kinase Assay, K-8",
+CSNK1G2,CSNK1G2,casein kinase 1 gamma 2,CK1g2,1455,NV1181,NanoLuc®-CSNK1G2 Fusion Vector,"NanoBRET™ TE Intracellular Kinase Assay, K-10","NanoBRET™ TE Intracellular Kinase Assay, K-5"
+CSNK2A1,CSNK2A1,casein kinase 2 alpha 1,"CK2A1, CKII, Cka1, Cka2, OCNDS",1457,NV2981,CSNK2A1-NanoLuc® Fusion Vector,"NanoBRET™ TE Intracellular Kinase Assay, K-10",
+CSNK2A2,CSNK2A2,casein kinase 2 alpha 2,"CK2A2, CSNK2A1, CK2alpha',",1459,NV1191,CSNK2A2-NanoLuc® Fusion Vector,"NanoBRET™ TE Intracellular Kinase Assay, K-10","NanoBRET™ TE Intracellular Kinase Assay, K-5"
+DAPK2,DAPK2,death-associated protein kinase 2,"DRP-1, DRP1",23604,NV2991,NanoLuc®-DAPK2 Fusion Vector,"NanoBRET™ TE Intracellular Kinase Assay, K-10",
+DCLK3,DCLK3,doublecortin like kinase 3,"CLR, DCAMKL3, DCDC3C, DCK3",85443,NV3001,DCLK3-NanoLuc® Fusion Vector,"NanoBRET™ TE Intracellular Kinase Assay, K-10",
+DDR1,DDR1,discoidin domain receptor tyrosine kinase 1,,780,N2451,DDR1-NanoLuc® Fusion Vector,"NanoBRET™ TE Intracellular Kinase Assay, K-4","NanoBRET™ TE Intracellular Kinase Assay, K-4"
+DDR2,DDR2,discoidin domain receptor tyrosine kinase 2,"TKT, MIG20a, NTRKR3, TYRO10",4921,NV1201,DDR2-NanoLuc® Fusion Vector,"NanoBRET™ TE Intracellular Kinase Assay, K-4","NanoBRET™ TE Intracellular Kinase Assay, K-4"
+DDR2 (N456S),DDR2,discoidin domain receptor tyrosine kinase 2,"TKT, MIG20a, NTRKR3, TYRO10",4921,NV3011,DDR2(N456S)-NanoLuc® Fusion Vector,"NanoBRET™ TE Intracellular Kinase Assay, K-4",
+DMPK,DMPK,DM1 protein kinase,"DM, DM1, DM1PK, DMK, MDPK, MT-PK",1760,NV3021,NanoLuc®-DMPK Fusion Vector,"NanoBRET™ TE Intracellular Kinase Assay, K-10",
+DYRK1A,DYRK1A,dual specificity tyrosine phosphorylation regulated kinase 1B,"DYRK, DYRK1, HP86, MNB, MNBH, MRD7",1859,NV3031,NanoLuc®-DYRK1A Fusion Vector,"NanoBRET™ TE Intracellular Kinase Assay, K-10",
+DYRK1B,DYRK1B,dual specificity tyrosine phosphorylation regulated kinase 1B,"AOMS3, MIRK",9149,NV1211,NanoLuc®-DYRK1B Fusion Vector,"NanoBRET™ TE Intracellular Kinase Assay, K-10","NanoBRET™ TE Intracellular Kinase Assay, K-5"
+DYRK2,DYRK2,dual-specificity tyrosine- (Y)-phosphorylation regulated kinase 2,-,8445,NV3041,DYRK2-NanoLuc® Fusion Vector,"NanoBRET™ TE Intracellular Kinase Assay, K-10",
+EIF2AK4 (Dom.2),EIF2AK4,eukaryotic translation initiation factor 2 alpha kinase 4,"GCN2, PVOD2",440275,NV3051,NanoLuc®-EIF2AK4(Dom.2) Fusion Vector,"NanoBRET™ TE Intracellular Kinase Assay, K-10",
+EPHA1,EPHA1,EPH receptor A1,"EPH, EPHT, EPHT1",2041,NV1221,EPHA1-NanoLuc® Fusion Vector,"NanoBRET™ TE Intracellular Kinase Assay, K-4","NanoBRET™ TE Intracellular Kinase Assay, K-4"
+EPHA2,EPHA2,EPH receptor A2,"ECK, CTPA, ARCC2, CTPP1, CTRCT6",1969,NV1231,EPHA2-NanoLuc® Fusion Vector,"NanoBRET™ TE Intracellular Kinase Assay, K-4","NanoBRET™ TE Intracellular Kinase Assay, K-4"
+EPHA3,EPHA3,EPH receptor A3,"EK4, ETK, HEK, ETK1, HEK4, TYRO4",2042,NV3061,EPHA3-NanoLuc® Fusion Vector,"NanoBRET™ TE Intracellular Kinase Assay, K-11",
+EPHA4,EPHA4,EPH receptor A4,"SEK, HEK8, TYRO1",2043,NV1241,EPHA4-NanoLuc® Fusion Vector,"NanoBRET™ TE Intracellular Kinase Assay, K-4","NanoBRET™ TE Intracellular Kinase Assay, K-4"
+EPHA5,EPHA5,EPH receptor A5,"CEK7, EHK-1, EHK1, EK7, HEK7, TYRO4",2044,NV1251,EPHA5-NanoLuc® Fusion Vector,"NanoBRET™ TE Intracellular Kinase Assay, K-4","NanoBRET™ TE Intracellular Kinase Assay, K-4"
+EPHA6,EPHA6,EPH receptor A6,"EHK-2, EHK2, EK12, EPA6, HEK12, PRO57066",285220,NV1261,EPHA6-NanoLuc® Fusion Vector,"NanoBRET™ TE Intracellular Kinase Assay, K-10","NanoBRET™ TE Intracellular Kinase Assay, K-5"
+EPHA7,EPHA7,EPH receptor A7,"EHK-3, EHK3, EK11, HEK11",2045,NV1271,EPHA7-NanoLuc® Fusion Vector,"NanoBRET™ TE Intracellular Kinase Assay, K-10","NanoBRET™ TE Intracellular Kinase Assay, K-5"
+EPHA8,EPHA8,EPH receptor A8,"EEK, EK3, HEK3",2046,NV1281,EPHA8-NanoLuc® Fusion Vector,"NanoBRET™ TE Intracellular Kinase Assay, K-4","NanoBRET™ TE Intracellular Kinase Assay, K-4"
+EPHB1,EPHB1,EPH receptor B1,"ELK, NET, Hek6, EPHT2",2047,NV3071,EPHB1-NanoLuc® Fusion Vector,"NanoBRET™ TE Intracellular Kinase Assay, K-9",
+EPHB2,EPHB2,EPH receptor B2,"CAPB, DRT, EK5, EPHT3, ERK, Hek5, PCBC, Tyro5",2048,NV1291,EPHB2-NanoLuc® Fusion Vector,"NanoBRET™ TE Intracellular Kinase Assay, K-4","NanoBRET™ TE Intracellular Kinase Assay, K-4"
+EPHB3,EPHB3,EPH receptor B3,"EK2, ETK2, HEK2, TYRO6",2049,NV1301,EPHB3-NanoLuc® Fusion Vector,"NanoBRET™ TE Intracellular Kinase Assay, K-4","NanoBRET™ TE Intracellular Kinase Assay, K-4"
+EPHB4,EPHB4,EPH receptor B4,"HFASD, HTK, MYK1, TYRO11",2050,NV1311,EPHB4-NanoLuc® Fusion Vector,"NanoBRET™ TE Intracellular Kinase Assay, K-4","NanoBRET™ TE Intracellular Kinase Assay, K-4"
+ERK1,MAPK3,mitogen-activated protein kinase 3,"ERK1, ERT2, ERK-1, PRKM3, P44ERK1, P44MAPK, HS44KDAP, HUMKER1A, p44-ERK1, p44-MAPK",5595,NV1671,NanoLuc®-MAPK3 Fusion Vector,,"NanoBRET™ TE Intracellular Kinase Assay, K-5"
+ERK2,MAPK1,mitogen-activated protein kinase 1,"ERK, p38, p40, p41, ERK2, ERT1, MAPK2, PRKM1, PRKM2, P42MAPK, p41mapk, MAPK1",5594,NV1641,NanoLuc®-MAPK1 Fusion Vector,,"NanoBRET™ TE Intracellular Kinase Assay, K-5"
+ERN1,ERN1,endoplasmic reticulum to nucleus signaling 1,"IRE1, IRE1P, IRE1a, hIRE1p",2081,NV1321,ERN1-NanoLuc® Fusion Vector,"NanoBRET™ TE Intracellular Kinase Assay, K-10","NanoBRET™ TE Intracellular Kinase Assay, K-5"
+ERN2,ERN2,endoplasmic reticulum to nucleus signaling 2,"IRE1-BETA, IRE1b, IRE2p, hIRE2p, IRE2",10595,NV3081,ERN2-NanoLuc® Fusion Vector,"NanoBRET™ TE Intracellular Kinase Assay, K-10",
+FAK,PTK2,protein tyrosine kinase 2,"FAK, FADK, FAK1, FRNK, PPP1R71, p125FAK, pp125FAK",5747,NV1921,NanoLuc®-PTK2 Fusion Vector,"NanoBRET™ TE Intracellular Kinase Assay, K-10","NanoBRET™ TE Intracellular Kinase Assay, K-5"
+FER,FER,FER tyrosine kinase,"PPP1R74, TYK3, p94-Fer",2241,NV1331,FER-NanoLuc® Fusion Vector,"NanoBRET™ TE Intracellular Kinase Assay, K-10","NanoBRET™ TE Intracellular Kinase Assay, K-5"
+FES,FES,"FES proto-oncogene, tyrosine kinase","FPS, FES",2242,NV3091,FES-NanoLuc® Fusion Vector,"NanoBRET™ TE Intracellular Kinase Assay, K-9",
+FGFR1,FGFR1,fibroblast growth factor receptor 1,"CEK, FLG, HH2, OGD, ECCL, FLT2, KAL2, BFGFR, CD331, FGFBR, FLT-2, HBGFR, N-SAM, FGFR-1, HRTFDS, bFGF-R-1",2260,NV1341,FGFR1-NanoLuc® Fusion Vector,"NanoBRET™ TE Intracellular Kinase Assay, K-10","NanoBRET™ TE Intracellular Kinase Assay, K-5"
+FGFR2,FGFR2,fibroblast growth factor receptor 2,"BEK, JWS, BBDS, CEK3, CFD1, ECT1, KGFR, TK14, TK25, BFR-1, CD332, K-SAM",2263,NV1351,FGFR2-NanoLuc® Fusion Vector,"NanoBRET™ TE Intracellular Kinase Assay, K-10","NanoBRET™ TE Intracellular Kinase Assay, K-5"
+FGFR3,FGFR3,fibroblast growth factor receptor 3,"ACH, CEK2, JTK4, CD333, HSFGFR3EX",2261,NV1361,FGFR3-NanoLuc® Fusion Vector,"NanoBRET™ TE Intracellular Kinase Assay, K-10","NanoBRET™ TE Intracellular Kinase Assay, K-5"
+FGFR3 (G697C),FGFR3,ibroblast growth factor receptor 3,"ACH, CEK2, JTK4, CD333, HSFGFR3EX",2261,NV3101,FGFR3(G697C)-NanoLuc® Fusion Vector,"NanoBRET™ TE Intracellular Kinase Assay, K-10",
+FGFR4,FGFR4,fibroblast growth factor receptor 4,"TKF, JTK2, CD334",2264,NV1371,FGFR4-NanoLuc® Fusion Vector,"NanoBRET™ TE Intracellular Kinase Assay, K-10","NanoBRET™ TE Intracellular Kinase Assay, K-5"
+FGR,FGR,"FGR proto-oncogene, Src family tyrosine kinase","SRC2, c-fgr, c-src2, p55-Fgr, p55c-fgr, p58-Fgr, p58c-fgr",2268,NV1381,NanoLuc®-FGR Fusion Vector,"NanoBRET™ TE Intracellular Kinase Assay, K-4","NanoBRET™ TE Intracellular Kinase Assay, K-4"
+FLT1,FLT1,fms-related tyrosine kinase 1 (vascular endothelial growth factor/ vascular permeability factor receptor),"FLT, VEGFR1, FLT1",2321,NV3111,FLT1-NanoLuc® Fusion Vector,"NanoBRET™ TE Intracellular Kinase Assay, K-9",
+FLT3,FLT3,fms related tyrosine kinase 3,"FLK2, STK1, CD135, FLK-2",2322,NV1391,FLT3-NanoLuc® Fusion Vector,"NanoBRET™ TE Intracellular Kinase Assay, K-10","NanoBRET™ TE Intracellular Kinase Assay, K-5"
+FLT3 (D835H),FLT3,fms-related tyrosine kinase 3,"FLK2, STK1, CD135, FLK-2",2322,NV3121,FLT3(D835H)-NanoLuc® Fusion Vector,"NanoBRET™ TE Intracellular Kinase Assay, K-10",
+FLT3 (D835V),FLT3,fms-related tyrosine kinase 3,"FLK2, STK1, CD135, FLK-2",2322,NV3131,FLT3(D835V)-NanoLuc® Fusion Vector,"NanoBRET™ TE Intracellular Kinase Assay, K-10",
+FLT3 (D835Y),FLT3,fms-related tyrosine kinase 3,"FLK2, STK1, CD135, FLK-2",2322,NV3141,FLT3(D835Y)-NanoLuc® Fusion Vector,"NanoBRET™ TE Intracellular Kinase Assay, K-10",
+FLT3 (K663Q),FLT3,fms-related tyrosine kinase 3,"FLK2, STK1, CD135, FLK-2",2322,NV3151,FLT3(K663Q)-NanoLuc® Fusion Vector,"NanoBRET™ TE Intracellular Kinase Assay, K-9",
+FLT3 (N841I),FLT3,fms-related tyrosine kinase 3,"FLK2, STK1, CD135, FLK-2",2322,NV3161,FLT3(N841I)-NanoLuc® Fusion Vector,"NanoBRET™ TE Intracellular Kinase Assay, K-10",
+FLT3 (R834Q),FLT3,fms-related tyrosine kinase 3,"FLK2, STK1, CD135, FLK-2",2322,NV3171,FLT3(R834Q)-NanoLuc® Fusion Vector,"NanoBRET™ TE Intracellular Kinase Assay, K-10",
+FRK,FRK,fyn related Src family tyrosine kinase,"GTK, PTK5, RAK",2444,NV1401,FRK-NanoLuc® Fusion Vector,"NanoBRET™ TE Intracellular Kinase Assay, K-4","NanoBRET™ TE Intracellular Kinase Assay, K-4"
+FYN,FYN,"FYN proto-oncogene, Src family tyrosine kinase","SLK, SYN, p59-FYN",2534,NV1411,FYN-NanoLuc® Fusion Vector,"NanoBRET™ TE Intracellular Kinase Assay, K-4","NanoBRET™ TE Intracellular Kinase Assay, K-4"
+FYN (Y531F),FYN,"FYN proto-oncogene, Src family tyrosine kinase","SLK, SYN, p59-FYN",2534,NV3181,FYN(Y531F)-NanoLuc® Fusion Vector,"NanoBRET™ TE Intracellular Kinase Assay, K-4",
+GAK,GAK,cyclin G associated kinase,"DNAJ26, DNAJC26",2580,NV1421,NanoLuc®-GAK Fusion Vector,"NanoBRET™ TE Intracellular Kinase Assay, K-10","NanoBRET™ TE Intracellular Kinase Assay, K-5"
+GSK3A,GSK3A,glycogen synthase kinase 3 alpha,-,2931,NV3191,NanoLuc®-GSK3A Fusion Vector,"NanoBRET™ TE Intracellular Kinase Assay, K-8",
+GSK3B,GSK3B,glycogen synthase kinase 3 beta,-,2932,NV3201,NanoLuc®-GSK3B Fusion Vector,"NanoBRET™ TE Intracellular Kinase Assay, K-8",
+HCK,HCK,"HCK proto-oncogene, Src family tyrosine kinase","JTK9, p59Hck, p61Hck",3055,NV3211,HCK-NanoLuc® Fusion Vector,"NanoBRET™ TE Intracellular Kinase Assay, K-4",
+HIPK2,HIPK2,homeodomain interacting protein kinase 2,PRO0593,28996,NV3221,NanoLuc®-HIPK2 Fusion Vector,"NanoBRET™ TE Intracellular Kinase Assay, K-10",
+HIPK3,HIPK3,homeodomain interacting protein kinase 3,"PKY, YAK1, DYRK6, FIST3",10114,NV3231,NanoLuc®-HIPK3 Fusion Vector,"NanoBRET™ TE Intracellular Kinase Assay, K-10",
+HIPK4,HIPK4,homeodomain interacting protein kinase 4,-,147746,NV3241,NanoLuc®-HIPK4 Fusion Vector,"NanoBRET™ TE Intracellular Kinase Assay, K-10",
+ICK,CILK1,ciliogenesis associated kinase 1,"ECO, EJM10, ICK, LCK2, MRK, hICK",22858,NV3251,NanoLuc®-ICK Fusion Vector,"NanoBRET™ TE Intracellular Kinase Assay, K-8",
+IGF1R,IGF1R,insulin-like growth factor 1 receptor,"IGFR, CD221, IGFIR, JTK13, MGC18216, MGC142170, MGC142172, IGF1R",3480,NV3261,IGF1R-NanoLuc® Fusion Vector,"NanoBRET™ TE Intracellular Kinase Assay, K-9",
+IKBKE,IKBKE,inhibitor of nuclear factor kappa B kinase subunit epsilon,"IKK-E, IKK-i, IKKE, IKKI",9641,NV1431,NanoLuc®-IKBKE Fusion Vector,"NanoBRET™ TE Intracellular Kinase Assay, K-10","NanoBRET™ TE Intracellular Kinase Assay, K-5"
+INSR,INSR,insulin receptor,"HHF5, CD220, INSR",3643,NV3271,INSR-NanoLuc® Fusion Vector,"NanoBRET™ TE Intracellular Kinase Assay, K-9",
+IRAK1,IRAK1,interleukin 1 receptor associated kinase 1,"IRAK, pelle",3654,NV3281,NanoLuc®-IRAK1 Fusion Vector,"NanoBRET™ TE Intracellular Kinase Assay, K-9",
+IRAK3,IRAK3,interleukin 1 receptor associated kinase 3,"ASRT5, IRAKM",11213,NV1441,NanoLuc®-IRAK3 Fusion Vector,"NanoBRET™ TE Intracellular Kinase Assay, K-10","NanoBRET™ TE Intracellular Kinase Assay, K-5"
+IRAK4,IRAK4,Interleukin 1 receptor associated kinase 4,"IPD1, REN64, IRAK-4, NY-REN-64",51135,NV1451,IRAK4-NanoLuc® Fusion Vector,"NanoBRET™ TE Intracellular Kinase Assay, K-10","NanoBRET™ TE Intracellular Kinase Assay, K-5"
+ITK,ITK,IL2 inducible T-cell kinase,"EMT, LYK, LPFS1, PSCTK2",3702,NV1461,NanoLuc®-ITK Fusion Vector,"NanoBRET™ TE Intracellular Kinase Assay, K-10","NanoBRET™ TE Intracellular Kinase Assay, K-5"
+JAK2,JAK2,Janus kinase 2,"JTK10, THCYT3",3717,NV3291,JAK2-NanoLuc® Fusion Vector,"NanoBRET™ TE Intracellular Kinase Assay, K-10",
+JAK2 (JH1 domain),JAK2,Janus kinase 2,"JTK10, THCYT3",3717,NV3311,NanoLuc®-JAK2(JH1 domain) Fusion Vector,"NanoBRET™ TE Intracellular Kinase Assay, K-10",
+JAK2 (V617F),JAK2,Janus kinase 2,"JTK10, THCYT3",3717,NV3301,JAK2(V617F)-NanoLuc® Fusion Vector,"NanoBRET™ TE Intracellular Kinase Assay, K-10",
+JAK3,JAK3,Janus kinase 3,"JAKL, LJAK, JAK-3, L-JAK, JAK3_HUMAN",3718,NV1471,JAK3-NanoLuc® Fusion Vector,"NanoBRET™ TE Intracellular Kinase Assay, K-10","NanoBRET™ TE Intracellular Kinase Assay, K-5"
+JNK1,MAPK8,mitogen-activated protein kinase 8,"JNK, JNK1, PRKM8, SAPK1, JNK-46, JNK1A2, SAPK1c, JNK21B1/ 2",5599,NV1701,NanoLuc®-MAPK8 Fusion Vector,"NanoBRET™ TE Intracellular Kinase Assay, K-10","NanoBRET™ TE Intracellular Kinase Assay, K-5"
+JNK2,MAPK9,mitogen-activated protein kinase 9,"JNK-55, JNK2, JNK2A, JNK2ALPHA, JNK2B, JNK2BETA, PRKM9, SAPK, SAPK1a, p54a, p54aSAPK",5601,NV1711,NanoLuc®-MAPK9 Fusion Vector,"NanoBRET™ TE Intracellular Kinase Assay, K-10","NanoBRET™ TE Intracellular Kinase Assay, K-5"
+JNK3,MAPK10,mitogen-activated protein kinase 10,"JNK3, JNK3A, PRKM10, SAPK1b, p493F12, p54bSAPK",5602,NV1481,JNK3-NanoLuc® Fusion Vector,"NanoBRET™ TE Intracellular Kinase Assay, K-10","NanoBRET™ TE Intracellular Kinase Assay, K-5"
+KIT,KIT,KIT proto-oncogene receptor tyrosine kinase,"PBT, SCFR, C-Kit, CD117",3815,NV1491,KIT-NanoLuc® Fusion Vector,"NanoBRET™ TE Intracellular Kinase Assay, K-4","NanoBRET™ TE Intracellular Kinase Assay, K-4"
+KIT (A829P),KIT,"KIT proto-oncogene, receptor tyrosine kinase","C-Kit, CD117, MASTC, PBT, SCFR",3815,NV3321,KIT(A829P)-NanoLuc® Fusion Vector,"NanoBRET™ TE Intracellular Kinase Assay, K-4",
+KIT (D816H),KIT,"KIT proto-oncogene, receptor tyrosine kinase","C-Kit, CD117, MASTC, PBT, SCFR",3815,NV3331,KIT(D816H)-NanoLuc® Fusion Vector,"NanoBRET™ TE Intracellular Kinase Assay, K-4",
+KIT (D816V),KIT,"KIT proto-oncogene, receptor tyrosine kinase","C-Kit, CD117, MASTC, PBT, SCFR",3815,NV3341,KIT(D816V)-NanoLuc® Fusion Vector,"NanoBRET™ TE Intracellular Kinase Assay, K-9",
+KIT (L576P),KIT,"KIT proto-oncogene, receptor tyrosine kinase","C-Kit, CD117, MASTC, PBT, SCFR",3815,NV3351,KIT(L576P)-NanoLuc® Fusion Vector,"NanoBRET™ TE Intracellular Kinase Assay, K-4",
+KIT (V559D),KIT,"KIT proto-oncogene, receptor tyrosine kinase","C-Kit, CD117, MASTC, PBT, SCFR",3815,NV3361,KIT(V559D)-NanoLuc® Fusion Vector,"NanoBRET™ TE Intracellular Kinase Assay, K-4",
+"KIT (V559D,T670I)",KIT,"KIT proto-oncogene, receptor tyrosine kinase","C-Kit, CD117, MASTC, PBT, SCFR",3815,NV3371,"KIT(V559D,T670I)-NanoLuc® Fusion Vector","NanoBRET™ TE Intracellular Kinase Assay, K-8",
+"KIT (V559D,V654A)",KIT,"KIT proto-oncogene, receptor tyrosine kinase","C-Kit, CD117, MASTC, PBT, SCFR",3815,NV3381,"KIT(V559D,V654A)-NanoLuc® Fusion Vector","NanoBRET™ TE Intracellular Kinase Assay, K-4",
+LATS1,LATS1,large tumor suppressor kinase 1,"WARTS, wts",9113,NV1501,LATS1-NanoLuc® Fusion Vector,"NanoBRET™ TE Intracellular Kinase Assay, K-10","NanoBRET™ TE Intracellular Kinase Assay, K-5"
+LATS2,LATS2,large tumor suppressor kinase 2,KPM,26524,NV1511,LATS2-NanoLuc® Fusion Vector,"NanoBRET™ TE Intracellular Kinase Assay, K-10","NanoBRET™ TE Intracellular Kinase Assay, K-5"
+LCK,LCK,"LCK proto-oncogene, Src family tyrosine kinase","LSK, YT16, IMD22, p56lck, pp58lck",3932,NV1521,LCK-NanoLuc® Fusion Vector,"NanoBRET™ TE Intracellular Kinase Assay, K-4","NanoBRET™ TE Intracellular Kinase Assay, K-4"
+LIMK1,LIMK1,LIM domain kinase 1,"LIMK, LIMK-1",3984,NV3391,LIMK1-NanoLuc® Fusion Vector,"NanoBRET™ TE Intracellular Kinase Assay, K-10",
+LIMK2,LIMK2,LIM domain kinase 2,,3985,NV1531,LIMK2-NanoLuc® Fusion Vector,"NanoBRET™ TE Intracellular Kinase Assay, K-10","NanoBRET™ TE Intracellular Kinase Assay, K-4"
+LRRK2,LRRK2,leucine-rich repeat kinase 2,"PARK8, RIPK7, ROCO2, AURA17, DARDARIN",120892,NV3401,LRRK2-NanoLuc® Fusion Vector,"NanoBRET™ TE Intracellular Kinase Assay, K-9",
+LRRK2 (G2019S),LRRK2,leucine-rich repeat kinase 2,"PARK8, RIPK7, ROCO2, AURA17, DARDARIN",120892,NV3411,LRRK2(G2019S)-NanoLuc® Fusion Vector,"NanoBRET™ TE Intracellular Kinase Assay, K-9",
+LRRK2 (I2020T),LRRK2,leucine-rich repeat kinase 2,"PARK8, RIPK7, ROCO2, AURA17, DARDARIN",120892,NV3431,LRRK2(I2020T)-NanoLuc® Fusion Vector,"NanoBRET™ TE Intracellular Kinase Assay, K-9",
+LRRK2 (R1441C),LRRK2,leucine-rich repeat kinase 2,"PARK8, RIPK7, ROCO2, AURA17, DARDARIN",120892,NV3421,LRRK2(R1441C)-NanoLuc® Fusion Vector,"NanoBRET™ TE Intracellular Kinase Assay, K-9",
+LTK,LTK,leukocyte receptor tyrosine kinase,TYK1,4058,NV1541,LTK-NanoLuc® Fusion Vector,"NanoBRET™ TE Intracellular Kinase Assay, K-9","NanoBRET™ TE Intracellular Kinase Assay, K-5"
+LYN,LYN,"LYN proto-oncogene, Src family tyrosine kinase","JTK8, p53Lyn, p56Lyn",4067,NV1551,LYN-NanoLuc® Fusion Vector,"NanoBRET™ TE Intracellular Kinase Assay, K-4","NanoBRET™ TE Intracellular Kinase Assay, K-4"
+MAP2K6,MAP2K6,mitogen-activated protein kinase kinase 6,"MAPKK6, MEK6, MKK6, PRKMK6, SAPKK-3, SAPKK3",5608,NV3441,MAP2K6-NanoLuc® Fusion Vector,"NanoBRET™ TE Intracellular Kinase Assay, K-11",
+MAP3K10,MAP3K10,mitogen-activated protein kinase kinase kinase 10,"MST, MLK2, MEKK10",4294,NV1561,NanoLuc®-MAP3K10 Fusion Vector,"NanoBRET™ TE Intracellular Kinase Assay, K-10","NanoBRET™ TE Intracellular Kinase Assay, K-5"
+MAP3K11,MAP3K11,mitogen-activated protein kinase kinase kinase 11,"MLK3, PTK1, SPRK, MLK-3, MEKK11",4296,NV1571,NanoLuc®-MAP3K11 Fusion Vector,"NanoBRET™ TE Intracellular Kinase Assay, K-10","NanoBRET™ TE Intracellular Kinase Assay, K-5"
+MAP3K12,MAP3K12,mitogen-activated protein kinase kinase kinase 12,"DLK, MEKK12, MUK, ZPK, ZPKP1",26404,NV1581,NanoLuc®-MAP3K12 Fusion Vector,"NanoBRET™ TE Intracellular Kinase Assay, K-9","NanoBRET™ TE Intracellular Kinase Assay, K-5"
+MAP3K13,MAP3K13,mitogen-activated protein kinase kinase kinase 13,"LZK, MEKK13, MLK",9175,NV3451,NanoLuc®-MAP3K13 Fusion Vector,"NanoBRET™ TE Intracellular Kinase Assay, K-9",
+MAP3K19,MAP3K19,mitogen-activated protein kinase kinase kinase 19,"RCK, YSK4",80122,NV3461,MAP3K19-NanoLuc® Fusion Vector,"NanoBRET™ TE Intracellular Kinase Assay, K-10",
+MAP3K2,MAP3K2,mitogen-activated protein kinase kinase kinase 2,"MEKK2, MEKK2B",10746,NV3471,MAP3K2-NanoLuc® Fusion Vector,"NanoBRET™ TE Intracellular Kinase Assay, K-10",
+MAP3K21,MAP3K21,mitogen-activated protein kinase kinase kinase 21,"MLK4, dJ862P8.3",84451,NV3481,NanoLuc®-MAP3K21 Fusion Vector,"NanoBRET™ TE Intracellular Kinase Assay, K-10",
+MAP3K3,MAP3K3,mitogen-activated protein kinase kinase kinase 3,"MAPKKK3, MEKK3",4215,NV3491,MAP3K3-NanoLuc® Fusion Vector,"NanoBRET™ TE Intracellular Kinase Assay, K-10",
+MAP3K4,MAP3K4,mitogen-activated protein kinase kinase kinase 4,"MAPKKK4, MEKK 4, MEKK4, MTK1, PRO0412",4216,NV1591,MAP3K4-NanoLuc® Fusion Vector,"NanoBRET™ TE Intracellular Kinase Assay, K-10","NanoBRET™ TE Intracellular Kinase Assay, K-5"
+MAP4K1,MAP4K1,mitogen-activated protein kinase kinase kinase kinase 1,HPK1,11184,NV1611,NanoLuc®-MAP4K1 Fusion Vector,"NanoBRET™ TE Intracellular Kinase Assay, K-10","NanoBRET™ TE Intracellular Kinase Assay, K-5"
+MAP4K2,MAP4K2,mitogen-activated protein kinase kinase kinase kinase 2,"GCK, BL44, RAB8IP",5871,NV1621,NanoLuc®-MAP4K2 Fusion Vector,"NanoBRET™ TE Intracellular Kinase Assay, K-10","NanoBRET™ TE Intracellular Kinase Assay, K-5"
+MAP4K3,MAP4K3,mitogen-activated protein kinase kinase kinase kinase 3,"GLK, MAPKKKK3, MEKKK 3, MEKKK3, RAB8IPL1",8491,NV1631,NanoLuc®-MAP4K3 Fusion Vector,"NanoBRET™ TE Intracellular Kinase Assay, K-10","NanoBRET™ TE Intracellular Kinase Assay, K-5"
+MAP4K5,MAP4K5,mitogen-activated protein kinase kinase kinase kinase 5,"GCKR, KHS, KHS1, MAPKKKK5",11183,NV3501,MAP4K5-NanoLuc® Fusion Vector,"NanoBRET™ TE Intracellular Kinase Assay, K-10",
+MAPK11,MAPK11,mitogen-activated protein kinase 11,"P38B, SAPK2, p38-2, PRKM11, SAPK2B, p38Beta, P38BETA2",5600,NV1651,NanoLuc®-MAPK11 Fusion Vector,"NanoBRET™ TE Intracellular Kinase Assay, K-4","NanoBRET™ TE Intracellular Kinase Assay, K-4"
+MAPK14,MAPK14,mitogen-activated protein kinase 14,"RK, p38, CSBP, EXIP, Mxi2, CSBP1, CSBP2, CSPB1, PRKM14, PRKM15, SAPK2A, p38ALPHA",1432,NV1661,MAPK14-NanoLuc® Fusion Vector,"NanoBRET™ TE Intracellular Kinase Assay, K-4","NanoBRET™ TE Intracellular Kinase Assay, K-4"
+MAPK14 (T106M),MAPK14,mitogen-activated protein kinase 14,"CSBP, CSBP1, CSBP2, CSPB1, EXIP, Mxi2, PRKM14, PRKM15, RK, SAPK2A, p38, p38ALPHA",1432,NV3511,MAPK14(T106M)-NanoLuc® Fusion Vector,"NanoBRET™ TE Intracellular Kinase Assay, K-10",
+MAPK4,MAPK4,mitogen-activated protein kinase 4,"ERK-4, ERK4, PRKM4, p63-MAPK, p63MAPK",5596,NV1681,NanoLuc®-MAPK4 Fusion Vector,"NanoBRET™ TE Intracellular Kinase Assay, K-10","NanoBRET™ TE Intracellular Kinase Assay, K-5"
+MAPK6,MAPK6,mitogen-activated protein kinase 6,"ERK3, HsT17250, PRKM6, p97MAPK",5597,NV1691,NanoLuc®-MAPK6 Fusion Vector,"NanoBRET™ TE Intracellular Kinase Assay, K-10","NanoBRET™ TE Intracellular Kinase Assay, K-5"
+MARK2,MARK2,microtubule affinity regulating kinase 2,"EMK-1, EMK1, PAR-1, Par-1b, Par1b",2011,NV1721,NanoLuc®-MARK2 Fusion Vector,"NanoBRET™ TE Intracellular Kinase Assay, K-9","NanoBRET™ TE Intracellular Kinase Assay, K-5"
+MARK3,MARK3,microtubule affinity regulating kinase 3,"CTAK1, KP78, PAR1A, Par-1a, VIPB",4140,NV3521,NanoLuc®-MARK3 Fusion Vector,"NanoBRET™ TE Intracellular Kinase Assay, K-9",
+MARK4,MARK4,microtubule affinity regulating kinase 4,"MARK4LS, MARKL1, MARKL1L, PAR-1D, MARK4",57787,NV1731,NanoLuc®-MARK4 Fusion Vector,"NanoBRET™ TE Intracellular Kinase Assay, K-10","NanoBRET™ TE Intracellular Kinase Assay, K-5"
+MAST3,MAST3,microtubule associated serine/ threonine kinase 3,-,23031,NV3531,NanoLuc®-MAST3 Fusion Vector,"NanoBRET™ TE Intracellular Kinase Assay, K-10",
+MAST4,MAST4,microtubule associated serine/ threonine kinase family member 4,-,375449,NV3541,NanoLuc®-MAST4 Fusion Vector,"NanoBRET™ TE Intracellular Kinase Assay, K-10",
+MELK,MELK,maternal embryonic leucine zipper kinase,HPK38,9833,NV1741,NanoLuc®-MELK Fusion Vector,"NanoBRET™ TE Intracellular Kinase Assay, K-9","NanoBRET™ TE Intracellular Kinase Assay, K-5"
+MELK (T460M),MELK,maternal embryonic leucine zipper kinase,"HPK38, KIAA0175",9833,NV3551,NanoLuc®-MELK(T460M) Fusion Vector,"NanoBRET™ TE Intracellular Kinase Assay, K-9",
+MERTK,MERTK,"MER proto-oncogene, tyrosine kinase","MER, RP38, Tyro12, c-Eyk, c-mer",10461,NV3561,MERTK-NanoLuc® Fusion Vector,"NanoBRET™ TE Intracellular Kinase Assay, K-9",
+MERTK (A708S),MERTK,"MER proto-oncogene, tyrosine kinase","MER, RP38, Tyro12, c-Eyk, c-mer",10461,NV3571,MERTK(A708S)-NanoLuc® Fusion Vector,"NanoBRET™ TE Intracellular Kinase Assay, K-9",
+MET,MET,"MET proto-oncogene, receptor tyrosine kinase","HGFR, AUTS9, RCCP2, c-Met, DFNB97",4233,NV1751,MET-NanoLuc® Fusion Vector,"NanoBRET™ TE Intracellular Kinase Assay, K-10","NanoBRET™ TE Intracellular Kinase Assay, K-5"
+MET (D1228H),MET,met proto-oncogene (hepatocyte growth factor receptor),"HGFR, AUTS9, RCCP2, c-Met, MET",4233,NV3691,MET(D1228H)-NanoLuc® Fusion Vector,"NanoBRET™ TE Intracellular Kinase Assay, K-10",
+MET (D1228N),MET,met proto-oncogene (hepatocyte growth factor receptor),"HGFR, AUTS9, RCCP2, c-Met, MET",4233,NV3681,MET(D1228N)-NanoLuc® Fusion Vector,"NanoBRET™ TE Intracellular Kinase Assay, K-10",
+MET (F1200I),MET,met proto-oncogene (hepatocyte growth factor receptor),"HGFR, AUTS9, RCCP2, c-Met, MET",4233,NV3701,MET(F1200I)-NanoLuc® Fusion Vector,"NanoBRET™ TE Intracellular Kinase Assay, K-10",
+MET (M1250T),MET,met proto-oncogene (hepatocyte growth factor receptor),"HGFR, AUTS9, RCCP2, c-Met, MET",4233,NV3581,MET(M1250T)-NanoLuc® Fusion Vector,"NanoBRET™ TE Intracellular Kinase Assay, K-10",
+MET (P991S),MET,met proto-oncogene (hepatocyte growth factor receptor),"HGFR, AUTS9, RCCP2, c-Met, MET",4233,NV3601,MET(P991S)-NanoLuc® Fusion Vector,"NanoBRET™ TE Intracellular Kinase Assay, K-10",
+MET (T1173I),MET,met proto-oncogene (hepatocyte growth factor receptor),"HGFR, AUTS9, RCCP2, c-Met, MET",4233,NV3621,MET(T1173I)-NanoLuc® Fusion Vector,"NanoBRET™ TE Intracellular Kinase Assay, K-10",
+MET (T992I),MET,met proto-oncogene (hepatocyte growth factor receptor),"HGFR, AUTS9, RCCP2, c-Met, MET",4233,NV3611,MET(T992I)-NanoLuc® Fusion Vector,"NanoBRET™ TE Intracellular Kinase Assay, K-10",
+MET (V1092I),MET,met proto-oncogene (hepatocyte growth factor receptor),"HGFR, AUTS9, RCCP2, c-Met, MET",4233,NV3631,MET(V1092I)-NanoLuc® Fusion Vector,"NanoBRET™ TE Intracellular Kinase Assay, K-10",
+MET (Y1230A),MET,met proto-oncogene (hepatocyte growth factor receptor),"HGFR, AUTS9, RCCP2, c-Met, MET",4233,NV3641,MET(Y1230A)-NanoLuc® Fusion Vector,"NanoBRET™ TE Intracellular Kinase Assay, K-10",
+MET (Y1230C),MET,met proto-oncogene (hepatocyte growth factor receptor),"HGFR, AUTS9, RCCP2, c-Met, MET",4233,NV3651,MET(Y1230C)-NanoLuc® Fusion Vector,"NanoBRET™ TE Intracellular Kinase Assay, K-10",
+MET (Y1230D),MET,met proto-oncogene (hepatocyte growth factor receptor),"HGFR, AUTS9, RCCP2, c-Met, MET",4233,NV3661,MET(Y1230D)-NanoLuc® Fusion Vector,"NanoBRET™ TE Intracellular Kinase Assay, K-10",
+MET (Y1230H),MET,met proto-oncogene (hepatocyte growth factor receptor),"HGFR, AUTS9, RCCP2, c-Met, MET",4233,NV3671,MET(Y1230H)-NanoLuc® Fusion Vector,"NanoBRET™ TE Intracellular Kinase Assay, K-10",
+MET (Y1235D),MET,met proto-oncogene (hepatocyte growth factor receptor),"HGFR, AUTS9, RCCP2, c-Met, MET",4233,NV3591,MET(Y1235D)-NanoLuc® Fusion Vector,"NanoBRET™ TE Intracellular Kinase Assay, K-10",
+MKNK2,MKNK2,MAPK interacting serine/ threonine kinase 2,"GPRK7, MNK2",2872,NV3711,NanoLuc®-MKNK2 Fusion Vector,"NanoBRET™ TE Intracellular Kinase Assay, K-10",
+MLK1,MAP3K9,mitogen-activated protein kinase kinase kinase 9,"MLK1, MEKK9, PRKE1",4293,NV1601,NanoLuc®-MAP3K9 Fusion Vector,"NanoBRET™ TE Intracellular Kinase Assay, K-10","NanoBRET™ TE Intracellular Kinase Assay, K-5"
+MLTK,MAP3K20,mitogen-activated protein kinase kinase kinase 20,"AZK, CNM6, MLK7, MLT, MLTK, MLTKalpha, MLTKbeta, MRK, SFMMP, ZAK, mlklak, pk",51776,NV3721,NanoLuc®-MLTK Fusion Vector,"NanoBRET™ TE Intracellular Kinase Assay, K-10",
+MOK,MOK,MOK protein kinase,"RAGE, RAGE-1, RAGE1, STK30",5891,NV3731,NanoLuc®-MOK Fusion Vector,"NanoBRET™ TE Intracellular Kinase Assay, K-10",
+MUSK,MUSK,muscle associated receptor tyrosine kinase,"CMS9, FADS",18198,NV1761,MUSK-NanoLuc® Fusion Vector,"NanoBRET™ TE Intracellular Kinase Assay, K-10","NanoBRET™ TE Intracellular Kinase Assay, K-5"
+MYLK2,MYLK2,myosin light chain kinase 2,"KMLC, MLCK, MLCK2, skMLCK",85366,NV1771,MYLK2-NanoLuc® Fusion Vector,"NanoBRET™ TE Intracellular Kinase Assay, K-10","NanoBRET™ TE Intracellular Kinase Assay, K-5"
+MYLK3,MYLK3,myosin light chain kinase 3,"MLCK, MLCK2, caMLCK",91807,NV3741,MYLK3-NanoLuc® Fusion Vector,"NanoBRET™ TE Intracellular Kinase Assay, K-10",
+MYLK4,MYLK4,myosin light chain kinase family member 4,SgK085,340156,NV3751,MYLK4-NanoLuc® Fusion Vector,"NanoBRET™ TE Intracellular Kinase Assay, K-10",
+NEK1,NEK1,NIMA-related expressed kinase 1,"D8Ertd790e, kat",4750,NV3761,NanoLuc®-NEK1 Fusion Vector,"NanoBRET™ TE Intracellular Kinase Assay, K-10",
+NEK11,NEK11,NIMA related kinase 11,-,79858,NV3771,NanoLuc®-NEK11 Fusion Vector,"NanoBRET™ TE Intracellular Kinase Assay, K-10",
+NEK2,NEK2,NIMA related kinase 2,"HsPK21A, NLK1, PPP1R111, RP67",4751,NV1781,NanoLuc®-NEK2 Fusion Vector,"NanoBRET™ TE Intracellular Kinase Assay, K-10","NanoBRET™ TE Intracellular Kinase Assay, K-5"
+NEK3,NEK3,NIMA related kinase 3,HSPK36,4752,NV1791,NanoLuc®-NEK3 Fusion Vector,"NanoBRET™ TE Intracellular Kinase Assay, K-10","NanoBRET™ TE Intracellular Kinase Assay, K-5"
+NEK4,NEK4,NIMA related kinase 4,"NRK2, STK2, pp12301",6787,NV3781,NanoLuc®-NEK4 Fusion Vector,"NanoBRET™ TE Intracellular Kinase Assay, K-10",
+NEK5,NEK5,NIMA related kinase 5,-,341676,NV3791,NanoLuc®-NEK5 Fusion Vector,"NanoBRET™ TE Intracellular Kinase Assay, K-10",
+NEK6,NEK6,NIMA related kinase 6,SID6-1512,10783,NV3801,NEK6-NanoLuc® Fusion Vector,"NanoBRET™ TE Intracellular Kinase Assay, K-9",
+NEK9,NEK9,NIMA related kinase 9,"APUG, LCCS10, NC, NERCC, NERCC1",91754,NV1801,NanoLuc®-NEK9 Fusion Vector,"NanoBRET™ TE Intracellular Kinase Assay, K-10","NanoBRET™ TE Intracellular Kinase Assay, K-5"
+NIM1K,NIM1K,NIM1 serine/ threonine protein kinase,NIM1,167359,NV3811,NIM1K-NanoLuc® Fusion Vector,"NanoBRET™ TE Intracellular Kinase Assay, K-10",
+NLK,NLK,nemo like kinase,-,51701,NV3821,NLK-NanoLuc® Fusion Vector,"NanoBRET™ TE Intracellular Kinase Assay, K-10",
+NRK,NRK,Nik related kinase,NESK,203447,NV3831,NanoLuc®-NRK Fusion Vector,"NanoBRET™ TE Intracellular Kinase Assay, K-11",
+NTRK1 (G667C),NTRK1,neurotrophic receptor tyrosine kinase 1,"MTC, TRK, TRK1, TRKA, Trk-A, p140-TrkA",4914,NV3841,NTRK1(G667C)-NanoLuc® Fusion Vector,"NanoBRET™ TE Intracellular Kinase Assay, K-10",
+NUAK1,NUAK1,NUAK family kinase 1,ARK5,9891,NV1831,NanoLuc®-NUAK1 Fusion Vector,"NanoBRET™ TE Intracellular Kinase Assay, K-10","NanoBRET™ TE Intracellular Kinase Assay, K-5"
+NUAK2,NUAK2,"NUAK family, SNF1-like kinase, 2",SNARK,81788,NV3851,NUAK2-NanoLuc® Fusion Vector,"NanoBRET™ TE Intracellular Kinase Assay, K-10",
+PAK4,PAK4,p21 (RAC1) activated kinase 4,,10298,NV1841,PAK4-NanoLuc® Fusion Vector,"NanoBRET™ TE Intracellular Kinase Assay, K-10","NanoBRET™ TE Intracellular Kinase Assay, K-5"
+PAK6,PAK6,p21 (RAC1) activated kinase 6,PAK5,56924,NV3861,PAK6-NanoLuc® Fusion Vector,"NanoBRET™ TE Intracellular Kinase Assay, K-10",
+PAK7,PAK7,p21 (RAC1) activated kinase 5,"PAK7, PAK5",57144,NV1851,PAK7-NanoLuc® Fusion Vector,,"NanoBRET™ TE Intracellular Kinase Assay, K-5"
+PDGFRA (V561D),PDGFRA,platelet derived growth factor receptor alpha,"CD140A, PDGFR-2, PDGFR2",5156,NV3871,PDGFRA(V561D)-NanoLuc® Fusion Vector,"NanoBRET™ TE Intracellular Kinase Assay, K-4",
+PHKG1,PHKG1,phosphorylase kinase catalytic subunit gamma 1,PHKG,5260,NV1861,NanoLuc®-PHKG1 Fusion Vector,"NanoBRET™ TE Intracellular Kinase Assay, K-10","NanoBRET™ TE Intracellular Kinase Assay, K-5"
+PHKG2,PHKG2,phosphorylase kinase catalytic subunit gamma 2,GSD9C,5261,NV3881,NanoLuc®-PHKG2 Fusion Vector,"NanoBRET™ TE Intracellular Kinase Assay, K-10",
+PIK3C3,PIK3C3,phosphatidylinositol 3-kinase catalytic subunit type 3,"VPS34, Vps34, hVps34",5289,NV3891,PIK3C3-NanoLuc® Fusion Vector,"NanoBRET™ TE Intracellular Kinase Assay, K-9",
+PIK3CA (C420R)/ PIK3R1,PIK3CA,"phosphatidylinositol-4,5-bisphosphate 3-kinase catalytic subunit alpha","CLAPO, CLOVE, CWS5, MCAP, MCM, MCMTC, PI3K, PI3K-alpha, p110-alpha",5290,NV3911,NanoLuc®-PIK3CA(C420R) Fusion Vector,"NanoBRET™ TE Intracellular Kinase Assay, K-3",
+PIK3CA (E542K)/ PIK3R1,PIK3CA,"phosphatidylinositol-4,5-bisphosphate 3-kinase catalytic subunit alpha","CLAPO, CLOVE, CWS5, MCAP, MCM, MCMTC, PI3K, PI3K-alpha, p110-alpha",5290,NV3921,NanoLuc®-PIK3CA(E542K) Fusion Vector,"NanoBRET™ TE Intracellular Kinase Assay, K-3",
+PIK3CA (E545A)/ PIK3R1,PIK3CA,"phosphatidylinositol-4,5-bisphosphate 3-kinase catalytic subunit alpha","CLAPO, CLOVE, CWS5, MCAP, MCM, MCMTC, PI3K, PI3K-alpha, p110-alpha",5290,NV3931,NanoLuc®-PIK3CA(E545A) Fusion Vector,"NanoBRET™ TE Intracellular Kinase Assay, K-3",
+PIK3CA (E545K)/ PIK3R1,PIK3CA,"phosphatidylinositol-4,5-bisphosphate 3-kinase catalytic subunit alpha","CLAPO, CLOVE, CWS5, MCAP, MCM, MCMTC, PI3K, PI3K-alpha, p110-alpha",5290,NV3941,NanoLuc®-PIK3CA(E545K) Fusion Vector,"NanoBRET™ TE Intracellular Kinase Assay, K-3",
+PIK3CA (H1047L)/ PIK3R1,PIK3CA,"phosphatidylinositol-4,5-bisphosphate 3-kinase catalytic subunit alpha","CLAPO, CLOVE, CWS5, MCAP, MCM, MCMTC, PI3K, PI3K-alpha, p110-alpha",5290,NV3951,NanoLuc®-PIK3CA(H1047L) Fusion Vector,"NanoBRET™ TE Intracellular Kinase Assay, K-3",
+PIK3CA (H1047R)/ PIK3R1,PIK3CA,"phosphatidylinositol-4,5-bisphosphate 3-kinase catalytic subunit alpha","CLAPO, CLOVE, CWS5, MCAP, MCM, MCMTC, PI3K, PI3K-alpha, p110-alpha",5290,NV3961,NanoLuc®-PIK3CA(H1047R) Fusion Vector,"NanoBRET™ TE Intracellular Kinase Assay, K-3",
+PIK3CA (H1047Y)/ PIK3R1,PIK3CA,"phosphatidylinositol-4,5-bisphosphate 3-kinase catalytic subunit alpha","CLAPO, CLOVE, CWS5, MCAP, MCM, MCMTC, PI3K, PI3K-alpha, p110-alpha",5290,NV3971,NanoLuc®-PIK3CA(H1047Y) Fusion Vector,"NanoBRET™ TE Intracellular Kinase Assay, K-3",
+PIK3CA (I800L)/ PIK3R1,PIK3CA,"phosphatidylinositol-4,5-bisphosphate 3-kinase catalytic subunit alpha","CLAPO, CLOVE, CWS5, MCAP, MCM, MCMTC, PI3K, PI3K-alpha, p110-alpha",5290,NV3981,NanoLuc®-PIK3CA(I800L) Fusion Vector,"NanoBRET™ TE Intracellular Kinase Assay, K-3",
+PIK3CA (M1043I)/ PIK3R1,PIK3CA,"phosphatidylinositol-4,5-bisphosphate 3-kinase catalytic subunit alpha","CLAPO, CLOVE, CWS5, MCAP, MCM, MCMTC, PI3K, PI3K-alpha, p110-alpha",5290,NV3991,NanoLuc®-PIK3CA(M1043I) Fusion Vector,"NanoBRET™ TE Intracellular Kinase Assay, K-3",
+PIK3CA (Q546K)/ PIK3R1,PIK3CA,"phosphatidylinositol-4,5-bisphosphate 3-kinase catalytic subunit alpha","CLAPO, CLOVE, CWS5, MCAP, MCM, MCMTC, PI3K, PI3K-alpha, p110-alpha",5290,NV4001,NanoLuc®-PIK3CA(Q546K) Fusion Vector,"NanoBRET™ TE Intracellular Kinase Assay, K-3",
+PIK3CA/ PIK3R1,PIK3CA,"phosphatidylinositol-4,5-bisphosphate 3-kinase catalytic subunit alpha","CLAPO, CLOVE, CWS5, MCAP, MCM, MCMTC, PI3K, PI3K-alpha, p110-alpha",5290,NV3901,NanoLuc®-PIK3CA Fusion Vector,"NanoBRET™ TE Intracellular Kinase Assay, K-3",
+PIK3CB/ PIK3R1,PIK3CB,"phosphatidylinositol-4,5-bisphosphate 3-kinase catalytic subunit beta","P110BETA, PI3K, PI3KBETA, PIK3C1",5291,NV4011,NanoLuc®-PIK3CB Fusion Vector,"NanoBRET™ TE Intracellular Kinase Assay, K-3",
+PIK3CD/ PIK3R1,PIK3CD,"phosphatidylinositol-4,5-bisphosphate 3-kinase catalytic subunit delta","APDS, IMD14, P110DELTA, PI3K, p110D",5293,NV4021,NanoLuc®-PIK3CD Fusion Vector,"NanoBRET™ TE Intracellular Kinase Assay, K-3",
+PIKFYVE,PIKFYVE,"phosphoinositide kinase, FYVE-type zinc finger containing","CFD, FAB1, HEL37, PIP5K, PIP5K3, ZFYVE29",200576,NV4041,PIKFYVE-NanoLuc® Fusion Vector,"NanoBRET™ TE Intracellular Kinase Assay, K-8",
+PIM3,PIM3,"Pim-3 proto-oncogene, serine/ threonine kinase",pim-3,415116,NV4051,NanoLuc®-PIM3 Fusion Vector,"NanoBRET™ TE Intracellular Kinase Assay, K-10",
+PIP4K2C,PIP4K2C,phosphatidylinositol-5-phosphate 4-kinase type 2 gamma,PIP5K2C,79837,NV4061,PIP4K2C-NanoLuc® Fusion Vector,"NanoBRET™ TE Intracellular Kinase Assay, K-8",
+PIP5K1B,PIP5K1B,phosphatidylinositol-4-phosphate 5-kinase type 1 beta,"MSS4, STM7",8395,NV4071,NanoLuc®-PIP5K1B Fusion Vector,"NanoBRET™ TE Intracellular Kinase Assay, K-8",
+PKMYT1,PKMYT1,"protein kinase, membrane associated tyrosine/ threonine 1","MYT1, PPP1R126",9088,NV1871,PKMYT1-NanoLuc® Fusion Vector,"NanoBRET™ TE Intracellular Kinase Assay, K-10","NanoBRET™ TE Intracellular Kinase Assay, K-5"
+PLK2,PLK2,polo like kinase 2,"SNK, hPlk2, hSNK",10769,NV4081,NanoLuc®-PLK2 Fusion Vector,"NanoBRET™ TE Intracellular Kinase Assay, K-9",
+PLK3,PLK3,polo like kinase 3,"CNK, FNK, PLK-3, PRK",1263,NV4091,NanoLuc®-PLK3 Fusion Vector,"NanoBRET™ TE Intracellular Kinase Assay, K-9",
+PLK4,PLK4,polo like kinase 4,"MCCRP2, SAK, STK18",10733,NV1881,NanoLuc®-PLK4 Fusion Vector,"NanoBRET™ TE Intracellular Kinase Assay, K-10","NanoBRET™ TE Intracellular Kinase Assay, K-5"
+PRKAA1,PRKAA1,protein kinase AMP-activated catalytic subunit alpha 1,"AMPK, AMPKa1",5562,NV4101,NanoLuc®-PRKAA1 Fusion Vector,"NanoBRET™ TE Intracellular Kinase Assay, K-10",
+PRKAA2,PRKAA2,protein kinase AMP-activated catalytic subunit alpha 2,"AMPK, AMPK2, PRKAA, AMPKa2",5563,NV1891,NanoLuc®-PRKAA2 Fusion Vector,"NanoBRET™ TE Intracellular Kinase Assay, K-10","NanoBRET™ TE Intracellular Kinase Assay, K-5"
+PRKACA,PRKACA,protein kinase cAMP-activated catalytic subunit alpha,"PKACA, PPNAD4",5566,NV1901,PRKACA-NanoLuc® Fusion Vector,"NanoBRET™ TE Intracellular Kinase Assay, K-10","NanoBRET™ TE Intracellular Kinase Assay, K-5"
+PRKACB,PRKACB,protein kinase cAMP-activated catalytic subunit beta,"PKA C-beta, PKACB",5567,NV4111,PRKACB-NanoLuc® Fusion Vector,"NanoBRET™ TE Intracellular Kinase Assay, K-10",
+PRKCE,PRKCE,protein kinase C epsilon,"PKCE, nPKC-epsilon",5581,NV4121,PRKCE-NanoLuc® Fusion Vector,"NanoBRET™ TE Intracellular Kinase Assay, K-10",
+PRKG2,PRKG2,protein kinase cGMP-dependent 2,"PKG2, PRKGR2, cGK2, cGKII",5593,NV4131,PRKG2-NanoLuc® Fusion Vector,"NanoBRET™ TE Intracellular Kinase Assay, K-9",
+PRKX,PRKX,"protein kinase, X-linked",PKX1,5613,NV1911,PRKX-NanoLuc® Fusion Vector,"NanoBRET™ TE Intracellular Kinase Assay, K-10","NanoBRET™ TE Intracellular Kinase Assay, K-5"
+PYK2,PTK2B,protein tyrosine kinase 2 beta,"PKB, PTK, CAKB, FAK2, PYK2, CADTK, FADK2, RAFTK",2185,NV1931,PTK2B-NanoLuc® Fusion Vector,"NanoBRET™ TE Intracellular Kinase Assay, K-10","NanoBRET™ TE Intracellular Kinase Assay, K-5"
+RET,RET,ret proto-oncogene,"PTC, MTC1, HSCR1, MEN2A, MEN2B, RET51, CDHF12, CDHR16, RET-ELE1",5979,NV1951,RET-NanoLuc® Fusion Vector,"NanoBRET™ TE Intracellular Kinase Assay, K-10","NanoBRET™ TE Intracellular Kinase Assay, K-5"
+RET (M918T),RET,ret proto-oncogene,"PTC, MTC1, HSCR1, MEN2A, MEN2B, RET51, CDHF12, CDHR16, RET-ELE1, RET",5979,NV4141,RET(M918T)-NanoLuc® Fusion Vector,"NanoBRET™ TE Intracellular Kinase Assay, K-10",
+RET (V804L),RET,ret proto-oncogene,"PTC, MTC1, HSCR1, MEN2A, MEN2B, RET51, CDHF12, CDHR16, RET-ELE1, RET",5979,NV4151,RET(V804L)-NanoLuc® Fusion Vector,"NanoBRET™ TE Intracellular Kinase Assay, K-10",
+RET (V804M),RET,ret proto-oncogene,"PTC, MTC1, HSCR1, MEN2A, MEN2B, RET51, CDHF12, CDHR16, RET-ELE1, RET",5979,NV4161,RET(V804M)-NanoLuc® Fusion Vector,"NanoBRET™ TE Intracellular Kinase Assay, K-10",
+RIOK2,RIOK2,RIO kinase 2,RIO2,55781,NV1961,NanoLuc®-RIOK2 Fusion Vector,"NanoBRET™ TE Intracellular Kinase Assay, K-10","NanoBRET™ TE Intracellular Kinase Assay, K-5"
+RIPK1,RIPK1,receptor interacting serine/ threonine kinase 1,"IMD57, RIP, RIP-1, RIP1",8737,NV4171,NanoLuc®-RIPK1 Fusion Vector,"NanoBRET™ TE Intracellular Kinase Assay, K-9",
+RIPK2,RIPK2,receptor interacting serine/ threonine kinase 2,"CCK, RICK, RIP2, CARD3, GIG30, CARDIAK",8767,NV1971,NanoLuc®-RIPK2 Fusion Vector,"NanoBRET™ TE Intracellular Kinase Assay, K-10","NanoBRET™ TE Intracellular Kinase Assay, K-4"
+RON,MST1R,macrophage stimulating 1 receptor,"CD136, CDw136, NPCA3, PTK8, RON, SEA",4486,NV4181,RON-NanoLuc® Fusion Vector,"NanoBRET™ TE Intracellular Kinase Assay, K-9",
+RPS6KA3 (I416V),RPS6KA3,ribosomal protein S6 kinase A3,"CLS, HU-3, ISPK-1, MAPKAPK1B, MRX19, RSK, RSK2, S6K-alpha3, p90-RSK2, pp90RSK2",6197,NV4191,NanoLuc®-RPS6KA3(I416V) Fusion Vector,"NanoBRET™ TE Intracellular Kinase Assay, K-10",
+RPS6KA3 (L608F),RPS6KA3,ribosomal protein S6 kinase A3,"CLS, HU-3, ISPK-1, MAPKAPK1B, MRX19, RSK, RSK2, S6K-alpha3, p90-RSK2, pp90RSK2",6197,NV4201,NanoLuc®-RPS6KA3(L608F) Fusion Vector,"NanoBRET™ TE Intracellular Kinase Assay, K-10",
+RPS6KA4,RPS6KA4,ribosomal protein S6 kinase A4,"MSK2, RSK-B, S6K-alpha-4",8986,NV2011,NanoLuc®-RPS6KA4 Fusion Vector,"NanoBRET™ TE Intracellular Kinase Assay, K-10","NanoBRET™ TE Intracellular Kinase Assay, K-5"
+RSK1,RPS6KA1,ribosomal protein S6 kinase A1,"HU-1, RSK1, p90Rsk, MAPKAPK1A",6195,NV1981,NanoLuc®-RPS6KA1 Fusion Vector,"NanoBRET™ TE Intracellular Kinase Assay, K-10","NanoBRET™ TE Intracellular Kinase Assay, K-5"
+RSK2,RPS6KA3,ribosomal protein S6 kinase A3,"CLS, HU-3, ISPK-1, MAPKAPK1B, MRX19, RSK, RSK2, S6K-alpha3, p90-RSK2, pp90RSK2",6197,NV2001,NanoLuc®-RPS6KA3 Fusion Vector,"NanoBRET™ TE Intracellular Kinase Assay, K-10","NanoBRET™ TE Intracellular Kinase Assay, K-5"
+RSK3,RPS6KA2,ribosomal protein S6 kinase A2,"HU-2, RSK3, p90RSK2, p90-RSK3, pp90RSK3, MAPKAPK1C, S6K-alpha, S6K-alpha2",6196,NV1991,NanoLuc®-RPS6KA2 Fusion Vector,"NanoBRET™ TE Intracellular Kinase Assay, K-10","NanoBRET™ TE Intracellular Kinase Assay, K-5"
+RSK4,RPS6KA6,ribosomal protein S6 kinase A6,"PP90RSK4, RSK-4, RSK4, S6K-alpha-6, p90RSK6",27330,NV2021,NanoLuc®-RPS6KA6 Fusion Vector,"NanoBRET™ TE Intracellular Kinase Assay, K-10","NanoBRET™ TE Intracellular Kinase Assay, K-5"
+SBK3,SBK3,SH3 domain binding kinase family member 3,SGK110,100130827,NV4211,NanoLuc®-SBK3 Fusion Vector,"NanoBRET™ TE Intracellular Kinase Assay, K-10",
+SGK1,SGK1,serum/ glucocorticoid regulated kinase 1,"SGK, SGK1",6446,NV4221,SGK1-NanoLuc® Fusion Vector,"NanoBRET™ TE Intracellular Kinase Assay, K-10",
+SGK2,SGK2,serum/ glucocorticoid regulated kinase 2,"H-SGK2, dJ138B7.2",10110,NV4231,SGK2-NanoLuc® Fusion Vector,"NanoBRET™ TE Intracellular Kinase Assay, K-9",
+SIK1,SIK1,salt inducible kinase 1,"MSK, SIK, SIK-1, SNF1LK",150094,NV2031,NanoLuc®-SIK1 Fusion Vector,"NanoBRET™ TE Intracellular Kinase Assay, K-10","NanoBRET™ TE Intracellular Kinase Assay, K-4"
+SIK2,SNF1LK2,salt inducible kinase 2,"LOH11CR1I, QIK, SIK-2, SNF1LK2",23235,NV2061,NanoLuc®-SNF1LK2 Fusion Vector,"NanoBRET™ TE Intracellular Kinase Assay, K-10","NanoBRET™ TE Intracellular Kinase Assay, K-4"
+SIK3,SIK3,SIK family kinase 3,"L19, QSK, SIK-3",23387,NV2041,NanoLuc®-SIK3 Fusion Vector,"NanoBRET™ TE Intracellular Kinase Assay, K-10","NanoBRET™ TE Intracellular Kinase Assay, K-4"
+SLK,SLK,STE20 like kinase,"LOSK, STK2, se20-9, bA16H23.1",9748,NV2051,NanoLuc®-SLK Fusion Vector,"NanoBRET™ TE Intracellular Kinase Assay, K-10","NanoBRET™ TE Intracellular Kinase Assay, K-5"
+SNRK,SNRK,SNF related kinase,HSNFRK,54861,NV4241,NanoLuc®-SNRK Fusion Vector,"NanoBRET™ TE Intracellular Kinase Assay, K-10",
+SRC,SRC,"SRC proto-oncogene, non-receptor tyrosine kinase","ASV, SRC1, THC6, c-SRC, p60-Src",6714,NV2071,SRC-NanoLuc® Fusion Vector,"NanoBRET™ TE Intracellular Kinase Assay, K-4","NanoBRET™ TE Intracellular Kinase Assay, K-4"
+SRMS,SRMS,src-related kinase lacking C-terminal regulatory tyrosine and N-terminal myristylation sites,"C20orf148, PTK70, SRM, dJ697K14.1",6725,NV4251,NanoLuc®-SRMS Fusion Vector,"NanoBRET™ TE Intracellular Kinase Assay, K-10",
+STK10,STK10,serine/ threonine kinase 10,"LOK, PRO2729",6793,NV4261,NanoLuc®-STK10 Fusion Vector,"NanoBRET™ TE Intracellular Kinase Assay, K-10",
+STK11,STK11,serine/ threonine kinase 11,"LKB1, PJS, hLKB1",6794,NV2081,NanoLuc®-STK11 Fusion Vector,"NanoBRET™ TE Intracellular Kinase Assay, K-10","NanoBRET™ TE Intracellular Kinase Assay, K-5"
+STK16,STK16,serine/ threonine kinase 16,"KRCT, MPSK, PKL12, PSK, TSF1, hPSK",8576,NV2091,NanoLuc®-STK16 Fusion Vector,"NanoBRET™ TE Intracellular Kinase Assay, K-10","NanoBRET™ TE Intracellular Kinase Assay, K-5"
+STK17B,STK17B,serine/ threonine kinase 17b,DRAK2,9262,NV4271,STK17B-NanoLuc® Fusion Vector,"NanoBRET™ TE Intracellular Kinase Assay, K-9",
+STK24,STK24,serine/ threonine kinase 24,"HEL-S-95, MST3, MST3B, STE20, STK3",8428,NV4281,STK24-NanoLuc® Fusion Vector,"NanoBRET™ TE Intracellular Kinase Assay, K-9",
+STK26,STK26,serine/ threonine kinase 26,"MASK, MST4",51765,NV4291,STK26-NanoLuc® Fusion Vector,"NanoBRET™ TE Intracellular Kinase Assay, K-9",
+STK3,STK3,serine/ threonine kinase 3,"KRS1, MST2",6788,NV4301,NanoLuc®-STK3 Fusion Vector,"NanoBRET™ TE Intracellular Kinase Assay, K-10",
+STK32A,STK32A,serine/ threonine kinase 32A,YANK1,202374,NV4311,NanoLuc®-STK32A Fusion Vector,"NanoBRET™ TE Intracellular Kinase Assay, K-9",
+STK32B,STK32B,serine/ threonine kinase 32B,"HSA250839, STK32, STKG6, YANK2",55351,NV2101,NanoLuc®-STK32B Fusion Vector,"NanoBRET™ TE Intracellular Kinase Assay, K-9","NanoBRET™ TE Intracellular Kinase Assay, K-5"
+STK33,STK33,serine/ threonine kinase 33,,65975,NV2111,NanoLuc®-STK33 Fusion Vector,"NanoBRET™ TE Intracellular Kinase Assay, K-10","NanoBRET™ TE Intracellular Kinase Assay, K-5"
+STK35,STK35,serine/ threonine kinase 35,"CLIK1, STK35L1",140901,NV4321,STK35-NanoLuc® Fusion Vector,"NanoBRET™ TE Intracellular Kinase Assay, K-10",
+STK36,STK36,serine/ threonine kinase 36,FU,27148,NV4331,NanoLuc®-STK36 Fusion Vector,"NanoBRET™ TE Intracellular Kinase Assay, K-10",
+STK38,STK38,serine/ threonine kinase 38,"NDR, NDR1",11329,NV2121,STK38-NanoLuc® Fusion Vector,"NanoBRET™ TE Intracellular Kinase Assay, K-10","NanoBRET™ TE Intracellular Kinase Assay, K-5"
+STK38L,STK38L,serine/ threonine kinase 38 like,NDR2,23012,NV4341,STK38L-NanoLuc® Fusion Vector,"NanoBRET™ TE Intracellular Kinase Assay, K-10",
+STK4,STK4,serine/ threonine kinase 4,"KRS2, MST1, YSK3",6789,NV4351,NanoLuc®-STK4 Fusion Vector,"NanoBRET™ TE Intracellular Kinase Assay, K-10",
+TBK1,TBK1,TANK binding kinase 1,"NAK, T2K, FTDALS4",29110,NV2131,NanoLuc®-TBK1 Fusion Vector,"NanoBRET™ TE Intracellular Kinase Assay, K-10","NanoBRET™ TE Intracellular Kinase Assay, K-5"
+TEC,TEC,tec protein tyrosine kinase,PSCTK4,7006,NV2141,NanoLuc®-TEC Fusion Vector,"NanoBRET™ TE Intracellular Kinase Assay, K-4","NanoBRET™ TE Intracellular Kinase Assay, K-4"
+TEK,TEK,TEK receptor tyrosine kinase,"CD202B, GLC3E, TIE-2, TIE2, VMCM, VMCM1",7010,NV2151,TEK-NanoLuc® Fusion Vector,"NanoBRET™ TE Intracellular Kinase Assay, K-10","NanoBRET™ TE Intracellular Kinase Assay, K-5"
+TEK (A1124V),TEK,TEK receptor tyrosine kinase,"CD202B, GLC3E, TIE-2, TIE2, VMCM, VMCM1",7010,NV4361,TEK(A1124V)-NanoLuc® Fusion Vector,"NanoBRET™ TE Intracellular Kinase Assay, K-10",
+TEK (P883A),TEK,TEK receptor tyrosine kinase,"CD202B, GLC3E, TIE-2, TIE2, VMCM, VMCM1",7010,NV4371,TEK(P883A)-NanoLuc® Fusion Vector,"NanoBRET™ TE Intracellular Kinase Assay, K-10",
+TEK (R849W),TEK,TEK receptor tyrosine kinase,"CD202B, GLC3E, TIE-2, TIE2, VMCM, VMCM1",7010,NV4381,TEK(R849W)-NanoLuc® Fusion Vector,"NanoBRET™ TE Intracellular Kinase Assay, K-10",
+TEK (Y1108F),TEK,TEK receptor tyrosine kinase,"CD202B, GLC3E, TIE-2, TIE2, VMCM, VMCM1",7010,NV4391,TEK(Y1108F)-NanoLuc® Fusion Vector,"NanoBRET™ TE Intracellular Kinase Assay, K-10",
+TEK (Y897C),TEK,TEK receptor tyrosine kinase,"CD202B, GLC3E, TIE-2, TIE2, VMCM, VMCM1",7010,NV4401,TEK(Y897C)-NanoLuc® Fusion Vector,"NanoBRET™ TE Intracellular Kinase Assay, K-10",
+TEK (Y897S),TEK,TEK receptor tyrosine kinase,"CD202B, GLC3E, TIE-2, TIE2, VMCM, VMCM1",7010,NV4411,TEK(Y897S)-NanoLuc® Fusion Vector,"NanoBRET™ TE Intracellular Kinase Assay, K-10",
+TESK1,TESK1,testis-specific kinase 1,,7016,NV2161,NanoLuc®-TESK1 Fusion Vector,"NanoBRET™ TE Intracellular Kinase Assay, K-4","NanoBRET™ TE Intracellular Kinase Assay, K-4"
+TGFBR2,TGFBR2,transforming growth factor beta receptor 2,"AAT3, FAA3, LDS1B, LDS2, LDS2B, MFS2, RIIC, TAAD2, TBR-ii, TBRII, TGFR-2, TGFbeta-RII",7048,NV4421,TGFBR2-NanoLuc® Fusion Vector,"NanoBRET™ TE Intracellular Kinase Assay, K-11",
+TIE1,TIE1,tyrosine kinase with immunoglobulin like and EGF like domains 1,"JTK14, TIE",7075,NV2171,TIE1-NanoLuc® Fusion Vector,"NanoBRET™ TE Intracellular Kinase Assay, K-10","NanoBRET™ TE Intracellular Kinase Assay, K-5"
+TLK1,TLK1,tousled like kinase 1,PKU-beta,9874,NV4431,TLK1-NanoLuc® Fusion Vector,"NanoBRET™ TE Intracellular Kinase Assay, K-10",
+TLK2,TLK2,tousled like kinase 2,"HsHPK, MRD57, PKU-ALPHA",11011,NV4441,TLK2-NanoLuc® Fusion Vector,"NanoBRET™ TE Intracellular Kinase Assay, K-10",
+TNK1,TNK1,tyrosine kinase non receptor 1,,8711,NV2181,NanoLuc®-TNK1 Fusion Vector,"NanoBRET™ TE Intracellular Kinase Assay, K-10","NanoBRET™ TE Intracellular Kinase Assay, K-5"
+TNK2,TNK2,tyrosine kinase non receptor 2,"ACK, ACK-1, ACK1, p21cdc42Hs",10188,NV4451,TNK2-NanoLuc® Fusion Vector,"NanoBRET™ TE Intracellular Kinase Assay, K-10",
+TNNI3K,TNNI3K,TNNI3 interacting kinase,"CARK, CCDD",51086,NV4461,TNNI3K-NanoLuc® Fusion Vector,"NanoBRET™ TE Intracellular Kinase Assay, K-10",
+TRKA,NTRK1,neurotrophic receptor tyrosine kinase 1,"MTC, TRK, TRK1, TRKA, Trk-A, p140-TrkA",4914,NV1811,NTRK1-NanoLuc® Fusion Vector,"NanoBRET™ TE Intracellular Kinase Assay, K-10","NanoBRET™ TE Intracellular Kinase Assay, K-5"
+TRKB,NTRK2,neurotrophic receptor tyrosine kinase 2,"OBHD, TRKB, trk-B, GP145-TrkB",4915,NV1821,NTRK2-NanoLuc® Fusion Vector,"NanoBRET™ TE Intracellular Kinase Assay, K-10","NanoBRET™ TE Intracellular Kinase Assay, K-5"
+TSSK1B,TSSK1B,testis specific serine kinase 1B,"FKSG81, SPOGA4, STK22D, TSK1, TSSK1",83942,NV4471,NanoLuc®-TSSK1B Fusion Vector,"NanoBRET™ TE Intracellular Kinase Assay, K-9",
+TTK,TTK,TTK protein kinase,"CT96, ESK, MPH1, MPS1, MPS1L1, PYT",7272,NV2191,TTK-NanoLuc® Fusion Vector,"NanoBRET™ TE Intracellular Kinase Assay, K-9","NanoBRET™ TE Intracellular Kinase Assay, K-5"
+TXK,TXK,TXK tyrosine kinase,"BTKL, PSCTK5, PTK4, RLK, TKL",7294,NV2201,TXK-NanoLuc® Fusion Vector,"NanoBRET™ TE Intracellular Kinase Assay, K-4","NanoBRET™ TE Intracellular Kinase Assay, K-4"
+TYK2,TYK2,tyrosine kinase 2,"IMD35, JTK1",7297,NV4511,TYK2-NanoLuc® Fusion Vector,"NanoBRET™ TE Intracellular Kinase Assay, K-10",
+TYK2 (JH1 domain),TYK2,tyrosine kinase 2,"IMD35, JTK1",7297,NV4521,TYK2(JH1 domain)-NanoLuc® Fusion Vector,"NanoBRET™ TE Intracellular Kinase Assay, K-10",
+TYK2 (JH2 domain),TYK2,tyrosine kinase 2,"IMD35, JTK1",7297,NV4531,TYK2(JH2 domain)-NanoLuc® Fusion Vector,"NanoBRET™ TE Intracellular Kinase Assay, K-10",
+TYRO3,TYRO3,TYRO3 protein tyrosine kinase,"BYK, Dtk, RSE, Rek, Sky, Tif, Etk-2",7301,NV4481,TYRO3-NanoLuc® Fusion Vector,"NanoBRET™ TE Intracellular Kinase Assay, K-10",
+ULK1,ULK1,unc-51 like autophagy activating kinase 1,"ATG1, ATG1A, UNC51, hATG1, Unc51.1",8408,NV2211,NanoLuc®-ULK1 Fusion Vector,"NanoBRET™ TE Intracellular Kinase Assay, K-10","NanoBRET™ TE Intracellular Kinase Assay, K-5"
+ULK2,ULK2,unc-51 like autophagy activating kinase 2,"ATG1B, Unc51.2",9706,NV2221,NanoLuc®-ULK2 Fusion Vector,"NanoBRET™ TE Intracellular Kinase Assay, K-10","NanoBRET™ TE Intracellular Kinase Assay, K-5"
+ULK3,ULK3,unc-51 like kinase 3,-,25989,NV4491,NanoLuc®-ULK3 Fusion Vector,"NanoBRET™ TE Intracellular Kinase Assay, K-10",
+WEE1,WEE1,WEE1 G2 checkpoint kinase,WEE1Ahu,7465,NV2231,WEE1-NanoLuc® Fusion Vector,"NanoBRET™ TE Intracellular Kinase Assay, K-10","NanoBRET™ TE Intracellular Kinase Assay, K-5"
+WEE2,WEE2,WEE2 oocyte meiosis inhibiting kinase,"OOMD5, WEE1B",494551,NV4501,NanoLuc®-WEE2 Fusion Vector,"NanoBRET™ TE Intracellular Kinase Assay, K-10",
+YES1,YES1,"YES proto-oncogene 1, Src family tyrosine kinase","HsT441, P61-YES, Yes, c-yes",7525,NV2241,YES1-NanoLuc® Fusion Vector,"NanoBRET™ TE Intracellular Kinase Assay, K-4","NanoBRET™ TE Intracellular Kinase Assay, K-4"
