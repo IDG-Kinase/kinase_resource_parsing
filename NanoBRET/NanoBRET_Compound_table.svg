@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="716.8407mm"
+   height="409.92776mm"
+   viewBox="0 0 716.8407 409.92776"
+   version="1.1"
+   id="svg861"
+   inkscape:version="0.92.5 (2060ec1f9f, 2020-04-08)"
+   sodipodi:docname="NanoBRET_Compound_table.svg"
+   inkscape:export-filename="/home/mbergins/Documents/Projects/kinase_resource_parsing/NanoBRET/NanoBRET_Compound_table.png"
+   inkscape:export-xdpi="79.724823"
+   inkscape:export-ydpi="79.724823">
+  <defs
+     id="defs855" />
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="1"
+     inkscape:pageshadow="2"
+     inkscape:zoom="0.24748737"
+     inkscape:cx="807.01746"
+     inkscape:cy="1154.8011"
+     inkscape:document-units="mm"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     fit-margin-top="0"
+     fit-margin-left="0"
+     fit-margin-right="0"
+     fit-margin-bottom="0"
+     inkscape:window-width="2488"
+     inkscape:window-height="1370"
+     inkscape:window-x="72"
+     inkscape:window-y="33"
+     inkscape:window-maximized="1" />
+  <metadata
+     id="metadata858">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(169.39859,-19.464678)">
+    <image
+       sodipodi:absref="/home/mbergins/Documents/Projects/kinase_resource_parsing/NanoBRET/NanoBRET_kinases_table.png"
+       xlink:href="NanoBRET_kinases_table.png"
+       width="574.32227"
+       height="409.92776"
+       preserveAspectRatio="none"
+       id="image4545"
+       x="-169.39859"
+       y="19.464678" />
+    <g
+       id="g1452"
+       transform="matrix(2.2105745,0,0,2.2105745,-507.30824,-273.49787)">
+      <image
+         width="10.230556"
+         height="30.691668"
+         preserveAspectRatio="none"
+         xlink:href="data:image/png;base64,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 AElFTkSuQmCC "
+         id="image1436"
+         x="419.06403"
+         y="209.90169" />
+      <text
+         id="text1441"
+         y="217.06847"
+         x="429.85596"
+         style="font-style:normal;font-weight:normal;font-size:8.85063553px;line-height:1.20000005;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.2212659"
+         xml:space="preserve"><tspan
+           style="line-height:1.20000005;stroke-width:0.2212659"
+           y="217.06847"
+           x="429.85596"
+           id="tspan1439"
+           sodipodi:role="line">Both</tspan><tspan
+           id="tspan1443"
+           style="line-height:1.20000005;stroke-width:0.2212659"
+           y="227.68922"
+           x="429.85596"
+           sodipodi:role="line">NanoBRET</tspan><tspan
+           id="tspan1445"
+           style="line-height:1.20000005;stroke-width:0.2212659"
+           y="238.31"
+           x="429.85596"
+           sodipodi:role="line">Compound</tspan></text>
+    </g>
+  </g>
+</svg>

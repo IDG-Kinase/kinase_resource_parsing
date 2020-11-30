@@ -1,6 +1,6 @@
 symbol,tracer_id,concentration,synapse_link
 CDK10,7281,0.25,https://www.synapse.org/#!Synapse:syn18435660
-CDK11a,7281,0.125,https://www.synapse.org/#!Synapse:syn18435664
+CDK11A,7281,0.125,https://www.synapse.org/#!Synapse:syn18435664
 CDK11B,7281,0.125,https://www.synapse.org/#!Synapse:syn18435655
 CDK12,7281,0.5,https://www.synapse.org/#!Synapse:syn18435662
 CDK13,7281,0.5,https://www.synapse.org/#!Synapse:syn18435661
@@ -65,3 +65,7 @@ PRKACB,10-7600,0.5,https://www.synapse.org/#!Synapse:syn21519496
 STK17A,10-7600,0.5,https://www.synapse.org/#!Synapse:syn21519497
 TLK1,10-7600,0.5,https://www.synapse.org/#!Synapse:syn21519498
 TLK2,10-7600,0.5,https://www.synapse.org/#!Synapse:syn21519499
+PIP4K2C,8-7235,0.25,https://www.synapse.org/#!Synapse:syn22752283
+TSSK1B,9-7520,0.5,https://www.synapse.org/#!Synapse:syn22752285
+CAMK1G,9-7520,0.5,https://www.synapse.org/#!Synapse:syn22752287
+BRSK1,10-7600,0.5,https://www.synapse.org/#!Synapse:syn22752288
