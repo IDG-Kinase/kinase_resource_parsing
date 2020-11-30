@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="658.36383mm"
+   height="409.92776mm"
+   viewBox="0 0 658.36383 409.92776"
+   version="1.1"
+   id="svg8"
+   inkscape:version="0.92.5 (2060ec1f9f, 2020-04-08)"
+   sodipodi:docname="PRM_table.svg"
+   inkscape:export-filename="./PRM_final_table.png"
+   inkscape:export-xdpi="79.7248"
+   inkscape:export-ydpi="79.7248">
+  <defs
+     id="defs2" />
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="1"
+     inkscape:pageshadow="2"
+     inkscape:zoom="0.175"
+     inkscape:cx="1829.6879"
+     inkscape:cy="-200.35436"
+     inkscape:document-units="mm"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     fit-margin-top="0"
+     fit-margin-left="0"
+     fit-margin-right="0"
+     fit-margin-bottom="0"
+     inkscape:window-width="2488"
+     inkscape:window-height="1370"
+     inkscape:window-x="72"
+     inkscape:window-y="33"
+     inkscape:window-maximized="1" />
+  <metadata
+     id="metadata5">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-18.999582,31.661115)">
+    <g
+       id="g852"
+       transform="translate(0,-33.738899)">
+      <image
+         sodipodi:absref="/home/mbergins/Documents/Projects/kinase_resource_parsing/kinase_color_tables/PRM_table.png"
+         xlink:href="PRM_table.png"
+         y="2.0777843"
+         x="18.999582"
+         id="image823"
+         preserveAspectRatio="none"
+         height="409.92776"
+         width="574.32227" />
+      <rect
+         y="56.724693"
+         x="549.77338"
+         height="351.88489"
+         width="40.104397"
+         id="rect848"
+         style="opacity:1;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:5.21830368;stroke-linecap:round;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1" />
+    </g>
+    <g
+       id="g900"
+       transform="matrix(0.50518588,0,0,0.50518588,281.80766,23.696732)">
+      <image
+         sodipodi:absref="/home/mbergins/Documents/Projects/kinase_resource_parsing/kinase_color_tables/PRM_table_colors.png"
+         xlink:href="PRM_table_colors.png"
+         y="209.55882"
+         x="616.63281"
+         id="image862"
+         preserveAspectRatio="none"
+         height="173.1635"
+         width="86.581749" />
+      <text
+         id="text867"
+         y="248.3362"
+         x="704.65265"
+         style="font-style:normal;font-weight:normal;font-size:27.36879349px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.68421984"
+         xml:space="preserve"><tspan
+           style="stroke-width:0.68421984"
+           y="248.3362"
+           x="704.65265"
+           id="tspan865"
+           sodipodi:role="line">High</tspan><tspan
+           id="tspan869"
+           style="stroke-width:0.68421984"
+           y="282.54718"
+           x="704.65265"
+           sodipodi:role="line">Purity</tspan></text>
+      <text
+         id="text867-3"
+         y="347.16519"
+         x="707.12494"
+         style="font-style:normal;font-weight:normal;font-size:27.36879349px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.6842199"
+         xml:space="preserve"><tspan
+           id="tspan869-4"
+           style="stroke-width:0.6842199"
+           y="347.16519"
+           x="707.12494"
+           sodipodi:role="line">Array</tspan></text>
+    </g>
+  </g>
+</svg>
