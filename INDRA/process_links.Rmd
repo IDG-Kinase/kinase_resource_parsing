@@ -1,0 +1,35 @@
+---
+title: "Process INDRA Links"
+author: "Matthew Berginski"
+date: "8/18/2020"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+library(tidyverse)
+library(here)
+library(vroom)
+library(janitor)
+library(DarkKinaseTools)
+```
+
+```{r}
+INDRA_data = vroom(here('INDRA','the_697_extended_kinome_v2_annotated.csv')) %>%
+  clean_names() %>%
+  #OBSCN has two entries, both leading to the same link, filter out one of them
+  filter(uni_prot_entry != "sp|Q5VST9|OBSCN_HUMAN_2")
+
+INDRA_DK = dark_kinases %>% 
+  left_join(INDRA_data %>% select(uniprot_entry, indra_network), by=c('uniprot_ids'='uniprot_entry')) %>%
+  select(symbol,indra_network) %>%
+  rename(URL = indra_network) %>%
+  #RSKR doesn't have a UNIPROT id in my data set, so it isn't joining correctly,
+  #remove it and re-add manually
+  filter(symbol != "RSKR") %>%
+  add_row(symbol = "RSKR", URL = "http://ndexbio.org/#/network/37488cea-5db0-11ea-bfdc-0ac135e8bacf") %>%
+  arrange(symbol) %>%
+  write_csv(here('INDRA', 'INDRA_URL_clustered.csv'))
+
+```
+
