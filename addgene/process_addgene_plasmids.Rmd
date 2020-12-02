@@ -1,0 +1,36 @@
+---
+title: "Process Addgene Plasmids"
+author: "Matthew Berginski"
+date: "2/20/2020"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+library(tidyverse)
+library(here)
+library(janitor)
+library(DarkKinaseTools)
+```
+
+I couldn't get the HTML table downloading packages to work for the addgene plasmid table at https://www.addgene.org/Ben_Major/, so I just copy and pasted it into a CSV file in libreCalc.
+
+```{r}
+plasmids = read_csv(here('addgene/major_addgene.csv'), col_names = F) %>%
+  select(-X1,-X5,-X6) %>%
+  rename(addgene_id = X2,
+         plasmid_name = X3,
+         gene = X4) %>%
+  filter(!is.na(addgene_id)) %>%
+  
+  #Not the cleanest regular expression, but it finds the first open paratheses
+  #and then matches out the next word, which so far has been the gene name
+  extract(gene, into = c('symbol'), regex = "\\((\\w+)") %>%
+  filter(!is.na(symbol)) %>%
+  # write_csv(here('addgene/major_lab_plasmids.csv')) %>%
+  identity() 
+```
+
+```{r}
+not_DK = plasmids %>% 
+  filter(! symbol %in% dark_kinases$symbol)
+```
