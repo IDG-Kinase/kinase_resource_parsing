@@ -62,3 +62,5 @@ dark_kinases_multi_col %>%
   #block the meaningless column headers
   tab_options(column_labels.hidden = T) %>%
   gtsave(here('NanoBRET/NanoBRET_kinases_table.png'))
+
+BerginskiRMisc::trimImage(here('NanoBRET/NanoBRET_kinases_table.png'))

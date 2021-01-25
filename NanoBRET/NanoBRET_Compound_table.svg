@@ -30,8 +30,8 @@
      inkscape:pageopacity="1"
      inkscape:pageshadow="2"
      inkscape:zoom="0.24748737"
-     inkscape:cx="807.01746"
-     inkscape:cy="1154.8011"
+     inkscape:cx="649.43366"
+     inkscape:cy="1043.6843"
      inkscape:document-units="mm"
      inkscape:current-layer="layer1"
      showgrid="false"
@@ -64,12 +64,12 @@
     <image
        sodipodi:absref="/home/mbergins/Documents/Projects/kinase_resource_parsing/NanoBRET/NanoBRET_kinases_table.png"
        xlink:href="NanoBRET_kinases_table.png"
-       width="574.32227"
-       height="409.92776"
-       preserveAspectRatio="none"
-       id="image4545"
+       y="19.464678"
        x="-169.39859"
-       y="19.464678" />
+       id="image4545"
+       preserveAspectRatio="none"
+       height="409.92776"
+       width="574.32227" />
     <g
        id="g1452"
        transform="matrix(2.2105745,0,0,2.2105745,-507.30824,-273.49787)">
