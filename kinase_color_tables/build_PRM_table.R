@@ -9,16 +9,21 @@ dark_peptides = read_excel(here('kinase_color_tables/Dark Kinome PRM Assay Statu
   clean_names() %>%
   mutate(hugo_gene_symbol = case_when(
     hugo_gene_symbol == "SGK494" ~ "RSKR",
+    hugo_gene_symbol == "SGK223" ~ "PRAG1",
     TRUE ~ hugo_gene_symbol
-  ))
+  )) %>%
+  add_row(hugo_gene_symbol = "NIM1K", hp_array = "Array") %>%
+  add_row(hugo_gene_symbol = "COQ8B", hp_array = "HP") %>%
+  add_row(hugo_gene_symbol = "PAK5", hp_array = "HP")
 
 color_table = tribble(
   ~hp_array, ~cell_color,
-  "HP", "#1f78b4",
-  "Array", "#b2df8a",
+  "HP", "#1a8fd0",
+  "Array", "#fa6958",
   "None", 'white'
 )
 
+ggplot(color_table %>% mutate(y=c(1,1,1)), aes(x=hp_array, y=y, fill=cell_color)) + geom_point()
 
 #build data set with colors associated to has nano/compound/both
 dark_kinases_colors = dark_kinases %>% 
@@ -71,3 +76,5 @@ dark_kinases_multi_col %>%
   #block the meaningless column headers
   tab_options(column_labels.hidden = T) %>%
   gtsave(here('kinase_color_tables/PRM_table.png'))
+
+BerginskiRMisc::trimImage(here('kinase_color_tables/PRM_table.png'))

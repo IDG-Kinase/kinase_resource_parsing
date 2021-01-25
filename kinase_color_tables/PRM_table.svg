@@ -10,16 +10,16 @@
    xmlns:xlink="http://www.w3.org/1999/xlink"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   width="658.36383mm"
-   height="409.92776mm"
-   viewBox="0 0 658.36383 409.92776"
+   width="664.71381mm"
+   height="409.93948mm"
+   viewBox="0 0 664.71381 409.93948"
    version="1.1"
    id="svg8"
    inkscape:version="0.92.5 (2060ec1f9f, 2020-04-08)"
    sodipodi:docname="PRM_table.svg"
    inkscape:export-filename="./PRM_final_table.png"
-   inkscape:export-xdpi="79.7248"
-   inkscape:export-ydpi="79.7248">
+   inkscape:export-xdpi="38.518578"
+   inkscape:export-ydpi="38.518578">
   <defs
      id="defs2" />
   <sodipodi:namedview
@@ -29,9 +29,9 @@
      borderopacity="1.0"
      inkscape:pageopacity="1"
      inkscape:pageshadow="2"
-     inkscape:zoom="0.175"
-     inkscape:cx="1829.6879"
-     inkscape:cy="-200.35436"
+     inkscape:zoom="0.49497475"
+     inkscape:cx="1746.9222"
+     inkscape:cy="557.00806"
      inkscape:document-units="mm"
      inkscape:current-layer="layer1"
      showgrid="false"
@@ -60,66 +60,67 @@
      inkscape:label="Layer 1"
      inkscape:groupmode="layer"
      id="layer1"
-     transform="translate(-18.999582,31.661115)">
+     transform="translate(-18.999582,31.661116)">
+    <image
+       sodipodi:absref="/home/mbergins/Documents/Projects/kinase_resource_parsing/kinase_color_tables/PRM_table.png"
+       xlink:href="PRM_table.png"
+       y="-31.661116"
+       x="18.999582"
+       id="image823"
+       preserveAspectRatio="none"
+       height="409.92776"
+       width="574.32227" />
+    <rect
+       style="opacity:1;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:5.76403856;stroke-linecap:round;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1"
+       id="rect848"
+       width="48.064293"
+       height="358.23254"
+       x="549.60583"
+       y="20.04583" />
     <g
-       id="g852"
-       transform="translate(0,-33.738899)">
-      <image
-         sodipodi:absref="/home/mbergins/Documents/Projects/kinase_resource_parsing/kinase_color_tables/PRM_table.png"
-         xlink:href="PRM_table.png"
-         y="2.0777843"
-         x="18.999582"
-         id="image823"
-         preserveAspectRatio="none"
-         height="409.92776"
-         width="574.32227" />
-      <rect
-         y="56.724693"
-         x="549.77338"
-         height="351.88489"
-         width="40.104397"
-         id="rect848"
-         style="opacity:1;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:5.21830368;stroke-linecap:round;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1" />
-    </g>
-    <g
-       id="g900"
-       transform="matrix(0.50518588,0,0,0.50518588,281.80766,23.696732)">
-      <image
-         sodipodi:absref="/home/mbergins/Documents/Projects/kinase_resource_parsing/kinase_color_tables/PRM_table_colors.png"
-         xlink:href="PRM_table_colors.png"
-         y="209.55882"
-         x="616.63281"
-         id="image862"
-         preserveAspectRatio="none"
-         height="173.1635"
-         width="86.581749" />
+       id="g857"
+       transform="translate(5.2916667,-0.3349104)">
       <text
          id="text867"
-         y="248.3362"
-         x="704.65265"
-         style="font-style:normal;font-weight:normal;font-size:27.36879349px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.68421984"
+         y="144.21387"
+         x="638.84656"
+         style="font-style:normal;font-weight:normal;font-size:13.82632828px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.34565821"
          xml:space="preserve"><tspan
-           style="stroke-width:0.68421984"
-           y="248.3362"
-           x="704.65265"
+           style="stroke-width:0.34565821"
+           y="144.21387"
+           x="638.84656"
            id="tspan865"
            sodipodi:role="line">High</tspan><tspan
            id="tspan869"
-           style="stroke-width:0.68421984"
-           y="282.54718"
-           x="704.65265"
+           style="stroke-width:0.34565821"
+           y="161.49678"
+           x="638.84656"
            sodipodi:role="line">Purity</tspan></text>
       <text
          id="text867-3"
-         y="347.16519"
-         x="707.12494"
-         style="font-style:normal;font-weight:normal;font-size:27.36879349px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.6842199"
+         y="201.83617"
+         x="640.09552"
+         style="font-style:normal;font-weight:normal;font-size:13.82632828px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.34565824"
          xml:space="preserve"><tspan
            id="tspan869-4"
-           style="stroke-width:0.6842199"
-           y="347.16519"
-           x="707.12494"
+           style="stroke-width:0.34565824"
+           y="201.83617"
+           x="640.09552"
            sodipodi:role="line">Array</tspan></text>
+      <rect
+         y="126.35566"
+         x="593.32184"
+         height="45.370533"
+         width="45.370533"
+         id="rect825"
+         style="opacity:1;fill:#1a8fd0;fill-opacity:1;stroke:none;stroke-width:0.01175707;stroke-linecap:round;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1" />
+      <rect
+         y="175.54916"
+         x="593.32184"
+         height="45.370533"
+         width="45.370533"
+         id="rect825-4"
+         style="opacity:1;fill:#fa6958;fill-opacity:1;stroke:none;stroke-width:0.01175707;stroke-linecap:round;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1" />
     </g>
   </g>
 </svg>
