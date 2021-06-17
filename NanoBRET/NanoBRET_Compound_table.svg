@@ -10,16 +10,16 @@
    xmlns:xlink="http://www.w3.org/1999/xlink"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   width="716.8407mm"
-   height="409.92776mm"
-   viewBox="0 0 716.8407 409.92776"
+   width="533.88971mm"
+   height="223.04375mm"
+   viewBox="0 0 533.88971 223.04374"
    version="1.1"
    id="svg861"
    inkscape:version="0.92.5 (2060ec1f9f, 2020-04-08)"
    sodipodi:docname="NanoBRET_Compound_table.svg"
-   inkscape:export-filename="/home/mbergins/Documents/Projects/kinase_resource_parsing/NanoBRET/NanoBRET_Compound_table.png"
-   inkscape:export-xdpi="79.724823"
-   inkscape:export-ydpi="79.724823">
+   inkscape:export-filename="/home/mbergins/Documents/Projects/kinase_resource_parsing/NanoBRET/NanoBRET_Compound_table_final.png"
+   inkscape:export-xdpi="47.575371"
+   inkscape:export-ydpi="47.575371">
   <defs
      id="defs855" />
   <sodipodi:namedview
@@ -30,8 +30,8 @@
      inkscape:pageopacity="1"
      inkscape:pageshadow="2"
      inkscape:zoom="0.24748737"
-     inkscape:cx="649.43366"
-     inkscape:cy="1043.6843"
+     inkscape:cx="994.28402"
+     inkscape:cy="1093.7456"
      inkscape:document-units="mm"
      inkscape:current-layer="layer1"
      showgrid="false"
@@ -39,10 +39,10 @@
      fit-margin-left="0"
      fit-margin-right="0"
      fit-margin-bottom="0"
-     inkscape:window-width="2488"
-     inkscape:window-height="1370"
-     inkscape:window-x="72"
-     inkscape:window-y="33"
+     inkscape:window-width="2560"
+     inkscape:window-height="1403"
+     inkscape:window-x="2560"
+     inkscape:window-y="0"
      inkscape:window-maximized="1" />
   <metadata
      id="metadata858">
@@ -60,19 +60,26 @@
      inkscape:label="Layer 1"
      inkscape:groupmode="layer"
      id="layer1"
-     transform="translate(169.39859,-19.464678)">
+     transform="translate(167.6059,-26.005053)">
     <image
-       sodipodi:absref="/home/mbergins/Documents/Projects/kinase_resource_parsing/NanoBRET/NanoBRET_kinases_table.png"
-       xlink:href="NanoBRET_kinases_table.png"
-       y="19.464678"
-       x="-169.39859"
-       id="image4545"
+       sodipodi:absref="/home/mbergins/Documents/Projects/kinase_resource_parsing/NanoBRET/NanoBRET_Compound_table.png"
+       xlink:href="NanoBRET_Compound_table.png"
+       y="26.005053"
+       x="-167.6059"
+       id="image829"
        preserveAspectRatio="none"
-       height="409.92776"
-       width="574.32227" />
+       height="223.04375"
+       width="499.00418" />
+    <rect
+       style="opacity:1;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.05;stroke-linecap:round;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1"
+       id="rect832"
+       width="43.760509"
+       height="196.61855"
+       x="287.63776"
+       y="52.430237" />
     <g
        id="g1452"
-       transform="matrix(2.2105745,0,0,2.2105745,-507.30824,-273.49787)">
+       transform="matrix(1.2746139,0,0,1.2746139,-241.88366,-149.5767)">
       <image
          width="10.230556"
          height="30.691668"

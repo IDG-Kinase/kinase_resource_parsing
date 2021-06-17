@@ -77,6 +77,8 @@ write_csv(dark_NanoBRET_assays,here('NanoBRET/dark_NanoBRET.csv'))
 RSS_template = read_csv(here('NanoBRET/RSS_Data_template.csv'))
 
 data_for_RSS = dark_NanoBRET_assays %>% 
+  #fix for renamed ICK
+  mutate(symbol = ifelse(symbol == "ICK", "CILK1", symbol)) %>%
   filter(synapse_link != "") %>%
   rename(Gene = symbol,
          Title = fusion_name,
