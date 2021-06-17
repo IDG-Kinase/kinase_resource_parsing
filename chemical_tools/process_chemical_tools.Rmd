@@ -19,6 +19,7 @@ selectivities = read_csv(here('chemical_tools/compound_extra_properties.csv'))
 RSS_template = read_csv(here('chemical_tools/ChemicalTool.csv'))
 
 data_for_RSS = chemical_tools %>%
+  mutate(data_link = ifelse(is.na(data_link),outside_link,data_link)) %>%
   left_join(selectivities) %>%
   rename(Gene = kinase,
          Title = name,
