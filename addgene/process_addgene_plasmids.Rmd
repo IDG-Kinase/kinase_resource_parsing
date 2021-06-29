@@ -1,8 +1,8 @@
 ---
 title: "Process Addgene Plasmids"
 author: "Matthew Berginski"
-date: "2/20/2020"
-output: html_document
+date: "`r Sys.Date()`"
+output: github_document
 ---
 
 ```{r setup, include=FALSE}
@@ -10,6 +10,8 @@ library(tidyverse)
 library(here)
 library(janitor)
 library(DarkKinaseTools)
+
+knitr::opts_knit$set(root.dir = here())
 ```
 
 I couldn't get the HTML table downloading packages to work for the addgene plasmid table at https://www.addgene.org/Ben_Major/, so I just copy and pasted it into a CSV file in libreCalc.
@@ -22,11 +24,11 @@ plasmids = read_csv(here('addgene/major_addgene.csv'), col_names = F) %>%
          gene = X4) %>%
   filter(!is.na(addgene_id)) %>%
   
-  #Not the cleanest regular expression, but it finds the first open paratheses
+  #Not the cleanest regular expression, but it finds the first open parentheses
   #and then matches out the next word, which so far has been the gene name
   extract(gene, into = c('symbol'), regex = "\\((\\w+)") %>%
   filter(!is.na(symbol)) %>%
-  # write_csv(here('addgene/major_lab_plasmids.csv')) %>%
+  write_csv(here('addgene/major_lab_plasmids.csv')) %>%
   identity() 
 ```
 
