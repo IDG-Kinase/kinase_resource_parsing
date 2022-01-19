@@ -70,5 +70,8 @@ TSSK1B,9-7520,0.5,https://www.synapse.org/#!Synapse:syn22752285
 CAMK1G,9-7520,0.5,https://www.synapse.org/#!Synapse:syn22752287
 BRSK1,10-7600,0.5,https://www.synapse.org/#!Synapse:syn22752288
 NIM1K,K-10,0.5,https://www.synapse.org/#!Synapse:syn26720953
-CSNK1G1,12-7281,0.4,https://www.synapse.org/#!Synapse:syn26720954
-CSNK1G3,12-7281,0.4,https://www.synapse.org/#!Synapse:syn26720955
+CSNK1G1,12-7281,0.4,https://www.synapse.org/#!Synapse:syn26844296
+CSNK1G3,12-7281,0.4,https://www.synapse.org/#!Synapse:syn26844295
+NEK6,K9,0.17,https://www.synapse.org/#!Synapse:syn26844487
+PAK6,K-10,0.5,https://www.synapse.org/#!Synapse:syn26844488
+TESK1,K4,0.5,https://www.synapse.org/#!Synapse:syn26844489
